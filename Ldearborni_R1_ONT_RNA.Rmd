@@ -234,3 +234,12 @@ samtools index Ld_R1_liver_pass_cutadapt_minimap2.sorted.bam
 
 ```
 
+### Annotate AFP III genes and pseudogenes with exonerate
+
+```{bash}
+
+exonerate --model protein2genome --query Mamericanus_AFP.txt --target ~/Documents/GitHub/Long_AFP_04082024/Genomes/Ldear_hifionly.asm.bp.p_ctg.fa --showtargetgff TRUE --showquerygff FALSE > Ldear_primary_hifionly_AFP_exonerate_output.txt
+
+```
+
+GFF portions of exonerate output were filtered out and compiled into a single gff

@@ -1,0 +1,2272 @@
+Command line: [exonerate --model protein2genome --query Mamericanus_AFP.txt --target /Users/sambogan/Documents/GitHub/Long_AFP_04082024/Genomes/Ldear_hifionly.asm.bp.p_ctg.fa --showtargetgff TRUE --showquerygff FALSE]
+Hostname: [Samuels-MacBook-Pro-2.local]
+
+C4 Alignment:
+------------
+         Query: Mamericanus_AFP_protein J03924.1
+        Target: ptg000084l
+         Model: protein2genome:local
+     Raw score: 247
+   Query range: 0 -> 86
+  Target range: 11583316 -> 11583754
+
+        1 : MetLysSerValIleLeuThrGlyLeuLeuPheValLeuLeuCysValAspHis :       18
+            ||||||||||||:!!|||||||||||||||||||||||||||||||||||||||
+            MetLysSerValValLeuThrGlyLeuLeuPheValLeuLeuCysValAspHis
+ 11583317 : ATGAAGTCAGTTGTTTTAACTGGTTTGCTGTTCGTCCTCCTTTGTGTCGACCAC : 11583368
+
+       19 : MetThrAlaSerGlnSer  >>>> Target Intron 1 >>>>  ValValA :       27
+            |||!:!:!!:!!.!.!.!            180 bp           |||||||
+            MetSerSerAlaAsnLys++                         --ValValA
+ 11583369 : ATGAGTTCAGCCAACAAGgt.........................ccGTGGTGG : 11583575
+
+       28 : laThrGlnLeuIleProIleAsnThrAlaLeuThrProValMetMetGluGlyL :       45
+            ||!.!||||||||||||||||||||||||||||||! !:!!||||||:!!!.!:
+            laAsnGlnLeuIleProIleAsnThrAlaLeuThrLeuIleMetMetLysAlaG
+ 11583576 : CCAACCAGCTGATCCCCATAAATACTGCCCTGACTCTGATAATGATGAAGGCGG : 11583629
+
+       46 : ysValThrAsnProIleGlyIleProPheAlaGluMetSerGlnIleValGlyL :       63
+            !!|||..!!.!|||!!:|||||||||  !! !|||!!: !!:!!:!!||||||!
+            luValValThrProMetGlyIleProAlaGluGluIleProLysLeuValGlyM
+ 11583630 : AGGTGGTCACCCCAATGGGCATCCCCGCCGAGGAGATCCCCAAACTAGTGGGAA : 11583683
+
+       64 : ysGlnValAsnThrProValAlaLysGlyGlnThrLeuMetProAsnMetValL :       81
+             !|||||||||! ! !!||| !!  !|||  !||||||||||||:!!|||||||
+            etGlnValAsnArgAlaValProLeuGlyThrThrLeuMetProAspMetValL
+ 11583684 : TGCAAGTGAACAGGGCAGTGCCGTTGGGCACAACCCTCATGCCAGACATGGTGA : 11583737
+
+       82 : ysThrTyrAlaAlaGly :       86
+            ||!.!|||! !! !|||
+            ysAsnTyrGluAspGly
+ 11583738 : AAAACTATGAGGATGGG : 11583754
+
+vulgar: Mamericanus_AFP_protein 0 86 . ptg000084l 11583316 11583754 + 247 M 24 72 5 0 2 I 0 176 3 0 2 M 62 186
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:protein2genome:local 2.4.0
+##date 2024-11-18
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+ptg000084l	exonerate:protein2genome:local	gene	11583317	11583754	247	+	.	gene_id 1 ; sequence Mamericanus_AFP_protein ; gene_orientation + ; identity 63.95 ; similarity 77.91
+ptg000084l	exonerate:protein2genome:local	cds	11583317	11583388	.	+	.	
+ptg000084l	exonerate:protein2genome:local	exon	11583317	11583388	.	+	.	insertions 0 ; deletions 0 ; identity 76.00 ; similarity 92.00
+ptg000084l	exonerate:protein2genome:local	splice5	11583389	11583390	.	+	.	intron_id 1 ; splice_site "GT"
+ptg000084l	exonerate:protein2genome:local	intron	11583389	11583568	.	+	.	intron_id 1
+ptg000084l	exonerate:protein2genome:local	splice3	11583567	11583568	.	+	.	intron_id 0 ; splice_site "CC"
+ptg000084l	exonerate:protein2genome:local	cds	11583569	11583754	.	+	.	
+ptg000084l	exonerate:protein2genome:local	exon	11583569	11583754	.	+	.	insertions 0 ; deletions 0 ; identity 59.68 ; similarity 72.58
+ptg000084l	exonerate:protein2genome:local	similarity	11583317	11583754	247	+	.	alignment_id 1 ; Query Mamericanus_AFP_protein ; Align 11583317 1 72 ; Align 11583569 25 186
+# --- END OF GFF DUMP ---
+#
+
+C4 Alignment:
+------------
+         Query: Mamericanus_AFP_protein J03924.1
+        Target: ptg000084l
+         Model: protein2genome:local
+     Raw score: 246
+   Query range: 0 -> 83
+  Target range: 11722902 -> 11723331
+
+        1 : MetLysSerValIleLeuThrGlyLeuLeuPheValLeuLeuCysValAspHis :       18
+            ||||||||||||:!!|||||||||||||||||||||||||||||||||||||||
+            MetLysSerValValLeuThrGlyLeuLeuPheValLeuLeuCysValAspHis
+ 11722903 : ATGAAGTCAGTTGTTTTAACTGGTTTGCTGTTCGTCCTCCTTTGTGTCGACCAC : 11722954
+
+       19 : MetThrAlaSerGlnSer  >>>> Target Intron 1 >>>>  ValValA :       27
+            |||!:!:!!:!!.!.!.!            180 bp           |||||||
+            MetSerSerAlaAsnLys++                         --ValValA
+ 11722955 : ATGAGTTCAGCCAACAAGgt.........................ccGTGGTGG : 11723161
+
+       28 : laThrGlnLeuIleProIleAsnThrAlaLeuThrProValMetMetGluGlyL :       45
+            ||!.!||||||||||||||||||||||||||||||! !:!!||||||:!!!.!|
+            laAsnGlnLeuIleProIleAsnThrAlaLeuThrLeuIleMetMetLysAlaL
+ 11723162 : CCAACCAGCTGATCCCCATAAATACTGCCCTGACTCTGATAATGATGAAGGCGA : 11723215
+
+       46 : ysValThrAsnProIleGlyIleProPheAlaGluMetSerGlnIleValGlyL :       63
+            |||||..!!.!|||!!:|||||||||  !! !!!:!!: !!!:!|||:!!|||!
+            ysValValThrProMetGlyIleProAlaGluAspIleProArgIleIleGlyM
+ 11723216 : AGGTGGTCACCCCAATGGGCATCCCCGCCGAGGACATTCCCCGAATAATCGGAA : 11723269
+
+       64 : ysGlnValAsnThrProValAlaLysGlyGlnThrLeuMetProAsnMetValL :       81
+             !|||||||||! ! !!||| !!  !|||  !||||||||||||:!!|||||||
+            etGlnValAsnArgAlaValProLeuGlyThrThrLeuMetProAspMetValL
+ 11723270 : TGCAAGTGAACAGGGCAGTGCCGTTGGGCACAACCCTCATGCCAGACATGGTGA : 11723323
+
+       82 : ysThrTyr :       83
+            ||!.!|||
+            ysAsnTyr
+ 11723324 : AAAACTAT : 11723331
+
+vulgar: Mamericanus_AFP_protein 0 83 . ptg000084l 11722902 11723331 + 246 M 24 72 5 0 2 I 0 176 3 0 2 M 59 177
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:protein2genome:local 2.4.0
+##date 2024-11-18
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+ptg000084l	exonerate:protein2genome:local	gene	11722903	11723331	246	+	.	gene_id 2 ; sequence Mamericanus_AFP_protein ; gene_orientation + ; identity 65.06 ; similarity 79.52
+ptg000084l	exonerate:protein2genome:local	cds	11722903	11722974	.	+	.	
+ptg000084l	exonerate:protein2genome:local	exon	11722903	11722974	.	+	.	insertions 0 ; deletions 0 ; identity 76.00 ; similarity 92.00
+ptg000084l	exonerate:protein2genome:local	splice5	11722975	11722976	.	+	.	intron_id 1 ; splice_site "GT"
+ptg000084l	exonerate:protein2genome:local	intron	11722975	11723154	.	+	.	intron_id 1
+ptg000084l	exonerate:protein2genome:local	splice3	11723153	11723154	.	+	.	intron_id 0 ; splice_site "CC"
+ptg000084l	exonerate:protein2genome:local	cds	11723155	11723331	.	+	.	
+ptg000084l	exonerate:protein2genome:local	exon	11723155	11723331	.	+	.	insertions 0 ; deletions 0 ; identity 61.02 ; similarity 74.58
+ptg000084l	exonerate:protein2genome:local	similarity	11722903	11723331	246	+	.	alignment_id 2 ; Query Mamericanus_AFP_protein ; Align 11722903 1 72 ; Align 11723155 25 177
+# --- END OF GFF DUMP ---
+#
+
+C4 Alignment:
+------------
+         Query: Mamericanus_AFP_protein J03924.1
+        Target: ptg000084l
+         Model: protein2genome:local
+     Raw score: 245
+   Query range: 0 -> 83
+  Target range: 11838537 -> 11838966
+
+        1 : MetLysSerValIleLeuThrGlyLeuLeuPheValLeuLeuCysValAspHis :       18
+            ||||||||||||:!!|||||||||||||||||||||||||||||||||||||||
+            MetLysSerValValLeuThrGlyLeuLeuPheValLeuLeuCysValAspHis
+ 11838538 : ATGAAGTCAGTTGTTTTAACTGGTTTGCTGTTCGTCCTCCTTTGTGTCGACCAC : 11838589
+
+       19 : MetThrAlaSerGlnSer  >>>> Target Intron 1 >>>>  ValValA :       27
+            |||!:!:!!:!!.!.!.!            180 bp           |||||||
+            MetSerSerAlaAsnLys++                         --ValValA
+ 11838590 : ATGAGTTCAGCCAACAAGgt.........................ccGTGGTGG : 11838796
+
+       28 : laThrGlnLeuIleProIleAsnThrAlaLeuThrProValMetMetGluGlyL :       45
+            ||!.!||||||||||||||||||||||||||||||! !|||||||||:!!!.!:
+            laAsnGlnLeuIleProIleAsnThrAlaLeuThrLeuValMetMetLysAlaG
+ 11838797 : CCAACCAGCTGATCCCCATAAATACTGCCCTGACTCTAGTGATGATGAAGGCGG : 11838850
+
+       46 : ysValThrAsnProIleGlyIleProPheAlaGluMetSerGlnIleValGlyL :       63
+            !!|||..!!.!|||!!:|||||||||  !! !|||!!: !!:!!:!!||||||!
+            luValValThrProMetGlyIleProAlaGluGluIleProLysLeuValGlyM
+ 11838851 : AGGTGGTCACCCCAATGGGCATCCCTGCCGAGGAGATCCCCAAACTAGTGGGAA : 11838904
+
+       64 : ysGlnValAsnThrProValAlaLysGlyGlnThrLeuMetProAsnMetValL :       81
+             !|||||||||! ! !!||| !!  !|||  !||||||||||||:!!|||||||
+            etGlnValAsnArgAlaValProLeuGlyThrThrLeuMetProAspMetValL
+ 11838905 : TGCAAGTGAACAGGGCAGTGCCGTTGGGCACAACCCTCATGCCAGATATGGTGA : 11838958
+
+       82 : ysThrTyr :       83
+            ||!.!|||
+            ysAsnTyr
+ 11838959 : AAAACTAT : 11838966
+
+vulgar: Mamericanus_AFP_protein 0 83 . ptg000084l 11838537 11838966 + 245 M 24 72 5 0 2 I 0 176 3 0 2 M 59 177
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:protein2genome:local 2.4.0
+##date 2024-11-18
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+ptg000084l	exonerate:protein2genome:local	gene	11838538	11838966	245	+	.	gene_id 3 ; sequence Mamericanus_AFP_protein ; gene_orientation + ; identity 66.27 ; similarity 79.52
+ptg000084l	exonerate:protein2genome:local	cds	11838538	11838609	.	+	.	
+ptg000084l	exonerate:protein2genome:local	exon	11838538	11838609	.	+	.	insertions 0 ; deletions 0 ; identity 76.00 ; similarity 92.00
+ptg000084l	exonerate:protein2genome:local	splice5	11838610	11838611	.	+	.	intron_id 1 ; splice_site "GT"
+ptg000084l	exonerate:protein2genome:local	intron	11838610	11838789	.	+	.	intron_id 1
+ptg000084l	exonerate:protein2genome:local	splice3	11838788	11838789	.	+	.	intron_id 0 ; splice_site "CC"
+ptg000084l	exonerate:protein2genome:local	cds	11838790	11838966	.	+	.	
+ptg000084l	exonerate:protein2genome:local	exon	11838790	11838966	.	+	.	insertions 0 ; deletions 0 ; identity 62.71 ; similarity 74.58
+ptg000084l	exonerate:protein2genome:local	similarity	11838538	11838966	245	+	.	alignment_id 3 ; Query Mamericanus_AFP_protein ; Align 11838538 1 72 ; Align 11838790 25 177
+# --- END OF GFF DUMP ---
+#
+
+C4 Alignment:
+------------
+         Query: Mamericanus_AFP_protein J03924.1
+        Target: ptg000084l
+         Model: protein2genome:local
+     Raw score: 244
+   Query range: 0 -> 83
+  Target range: 11479733 -> 11480162
+
+        1 : MetLysSerValIleLeuThrGlyLeuLeuPheValLeuLeuCysValAspHis :       18
+            ||||||||||||:!!|||||||||||||||||||||||||||||||||||||||
+            MetLysSerValValLeuThrGlyLeuLeuPheValLeuLeuCysValAspHis
+ 11479734 : ATGAAGTCAGTTGTTTTAACTGGTTTGCTGTTCGTCCTCCTTTGTGTCGACCAC : 11479785
+
+       19 : MetThrAlaSerGlnSer  >>>> Target Intron 1 >>>>  ValValA :       27
+            |||!:!:!!:!!.!.!.!            180 bp           |||||||
+            MetSerSerAlaAsnLys++                         --ValValA
+ 11479786 : ATGAGTTCAGCCAACAAGgt.........................ccGTGGTGG : 11479992
+
+       28 : laThrGlnLeuIleProIleAsnThrAlaLeuThrProValMetMetGluGlyL :       45
+            ||!.!||||||||||||||||||||||||||||||! !:!!||||||:!!!.!:
+            laAsnGlnLeuIleProIleAsnThrAlaLeuThrLeuIleMetMetLysAlaG
+ 11479993 : CCAACCAGCTGATCCCCATAAATACTGCCCTGACTCTGATAATGATGAAGGCGG : 11480046
+
+       46 : ysValThrAsnProIleGlyIleProPheAlaGluMetSerGlnIleValGlyL :       63
+            !!|||..!!.!|||!!:|||||||||  !! !|||!!: !!:!!:!!||||||!
+            luValValThrProMetGlyIleProAlaGluGluIleProLysLeuValGlyM
+ 11480047 : AGGTGGTCACCCCAATGGGCATCCCTGCCGAGGAGATCCCCAAACTAGTGGGAA : 11480100
+
+       64 : ysGlnValAsnThrProValAlaLysGlyGlnThrLeuMetProAsnMetValL :       81
+             !|||||||||! ! !!||| !!  !|||  !||||||||||||:!!|||||||
+            etGlnValAsnArgAlaValProLeuGlyThrThrLeuMetProAspMetValL
+ 11480101 : TGCAAGTGAACAGGGCAGTGCCGTTGGGCACAACCCTCATGCCAGACATGGTGA : 11480154
+
+       82 : ysThrTyr :       83
+            ||!.!|||
+            ysAsnTyr
+ 11480155 : AAAACTAT : 11480162
+
+vulgar: Mamericanus_AFP_protein 0 83 . ptg000084l 11479733 11480162 + 244 M 24 72 5 0 2 I 0 176 3 0 2 M 59 177
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:protein2genome:local 2.4.0
+##date 2024-11-18
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+ptg000084l	exonerate:protein2genome:local	gene	11479734	11480162	244	+	.	gene_id 4 ; sequence Mamericanus_AFP_protein ; gene_orientation + ; identity 65.06 ; similarity 79.52
+ptg000084l	exonerate:protein2genome:local	cds	11479734	11479805	.	+	.	
+ptg000084l	exonerate:protein2genome:local	exon	11479734	11479805	.	+	.	insertions 0 ; deletions 0 ; identity 76.00 ; similarity 92.00
+ptg000084l	exonerate:protein2genome:local	splice5	11479806	11479807	.	+	.	intron_id 1 ; splice_site "GT"
+ptg000084l	exonerate:protein2genome:local	intron	11479806	11479985	.	+	.	intron_id 1
+ptg000084l	exonerate:protein2genome:local	splice3	11479984	11479985	.	+	.	intron_id 0 ; splice_site "CC"
+ptg000084l	exonerate:protein2genome:local	cds	11479986	11480162	.	+	.	
+ptg000084l	exonerate:protein2genome:local	exon	11479986	11480162	.	+	.	insertions 0 ; deletions 0 ; identity 61.02 ; similarity 74.58
+ptg000084l	exonerate:protein2genome:local	similarity	11479734	11480162	244	+	.	alignment_id 4 ; Query Mamericanus_AFP_protein ; Align 11479734 1 72 ; Align 11479986 25 177
+# --- END OF GFF DUMP ---
+#
+
+C4 Alignment:
+------------
+         Query: Mamericanus_AFP_protein J03924.1
+        Target: ptg000084l
+         Model: protein2genome:local
+     Raw score: 244
+   Query range: 0 -> 83
+  Target range: 11767803 -> 11768231
+
+        1 : MetLysSerValIleLeuThrGlyLeuLeuPheValLeuLeuCysValAspHis :       18
+            ||||||||||||:!!|||||||||||||||||||||||||||||||||||||||
+            MetLysSerValValLeuThrGlyLeuLeuPheValLeuLeuCysValAspHis
+ 11767804 : ATGAAGTCAGTTGTTTTAACTGGTTTGCTGTTCGTCCTCCTTTGTGTCGACCAC : 11767855
+
+       19 : MetThrAlaSerGlnSer  >>>> Target Intron 1 >>>>  ValValA :       27
+            |||!:!:!!:!!.!.!.!            179 bp           |||||||
+            MetSerSerAlaAsnLys++                         --ValValA
+ 11767856 : ATGAGTTCAGCCAACAAGgt.........................ccGTGGTGG : 11768061
+
+       28 : laThrGlnLeuIleProIleAsnThrAlaLeuThrProValMetMetGluGlyL :       45
+            ||!.!||||||||||||||||||||||||||||||! !:!!||||||:!!!.!:
+            laAsnGlnLeuIleProIleAsnThrAlaLeuThrLeuIleMetMetLysAlaG
+ 11768062 : CCAACCAGCTGATCCCCATAAATACTGCCCTGACTCTGATAATGATGAAGGCGG : 11768115
+
+       46 : ysValThrAsnProIleGlyIleProPheAlaGluMetSerGlnIleValGlyL :       63
+            !!|||..!!.!|||!!:|||||||||  !! !|||!!: !!:!!:!!||||||!
+            luValValThrProMetGlyIleProAlaGluGluIleProLysLeuValGlyM
+ 11768116 : AGGTGGTCACCCCAATGGGCATCCCCGCCGAGGAGATCCCCAAACTAGTGGGAA : 11768169
+
+       64 : ysGlnValAsnThrProValAlaLysGlyGlnThrLeuMetProAsnMetValL :       81
+             !|||||||||! ! !!||| !!  !|||  !||||||||||||:!!|||||||
+            etGlnValAsnArgAlaValProLeuGlyThrThrLeuMetProAspMetValL
+ 11768170 : TGCAAGTGAACAGGGCAGTGCCGTTGGGCACAACCCTCATGCCAGACATGGTGA : 11768223
+
+       82 : ysThrTyr :       83
+            ||!.!|||
+            ysAsnTyr
+ 11768224 : AAAACTAT : 11768231
+
+vulgar: Mamericanus_AFP_protein 0 83 . ptg000084l 11767803 11768231 + 244 M 24 72 5 0 2 I 0 175 3 0 2 M 59 177
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:protein2genome:local 2.4.0
+##date 2024-11-18
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+ptg000084l	exonerate:protein2genome:local	gene	11767804	11768231	244	+	.	gene_id 5 ; sequence Mamericanus_AFP_protein ; gene_orientation + ; identity 65.06 ; similarity 79.52
+ptg000084l	exonerate:protein2genome:local	cds	11767804	11767875	.	+	.	
+ptg000084l	exonerate:protein2genome:local	exon	11767804	11767875	.	+	.	insertions 0 ; deletions 0 ; identity 76.00 ; similarity 92.00
+ptg000084l	exonerate:protein2genome:local	splice5	11767876	11767877	.	+	.	intron_id 1 ; splice_site "GT"
+ptg000084l	exonerate:protein2genome:local	intron	11767876	11768054	.	+	.	intron_id 1
+ptg000084l	exonerate:protein2genome:local	splice3	11768053	11768054	.	+	.	intron_id 0 ; splice_site "CC"
+ptg000084l	exonerate:protein2genome:local	cds	11768055	11768231	.	+	.	
+ptg000084l	exonerate:protein2genome:local	exon	11768055	11768231	.	+	.	insertions 0 ; deletions 0 ; identity 61.02 ; similarity 74.58
+ptg000084l	exonerate:protein2genome:local	similarity	11767804	11768231	244	+	.	alignment_id 5 ; Query Mamericanus_AFP_protein ; Align 11767804 1 72 ; Align 11768055 25 177
+# --- END OF GFF DUMP ---
+#
+
+C4 Alignment:
+------------
+         Query: Mamericanus_AFP_protein J03924.1
+        Target: ptg000084l
+         Model: protein2genome:local
+     Raw score: 244
+   Query range: 0 -> 83
+  Target range: 11786280 -> 11786709
+
+        1 : MetLysSerValIleLeuThrGlyLeuLeuPheValLeuLeuCysValAspHis :       18
+            ||||||||||||:!!|||||||||||||||||||||||||||||||||||||||
+            MetLysSerValValLeuThrGlyLeuLeuPheValLeuLeuCysValAspHis
+ 11786281 : ATGAAGTCAGTTGTTTTAACTGGTTTGCTGTTCGTCCTCCTTTGTGTCGACCAC : 11786332
+
+       19 : MetThrAlaSerGlnSer  >>>> Target Intron 1 >>>>  ValValA :       27
+            |||!:!:!!:!!.!.!.!            180 bp           |||||||
+            MetSerSerAlaAsnLys++                         --ValValA
+ 11786333 : ATGAGTTCAGCCAACAAGgt.........................ccGTGGTGG : 11786539
+
+       28 : laThrGlnLeuIleProIleAsnThrAlaLeuThrProValMetMetGluGlyL :       45
+            ||!.!||||||||||||||||||||||||||||||! !:!!||||||:!!!.!:
+            laAsnGlnLeuIleProIleAsnThrAlaLeuThrLeuIleMetMetLysAlaG
+ 11786540 : CCAACCAGCTGATCCCCATAAATACTGCCCTGACTCTGATAATGATGAAGGCGG : 11786593
+
+       46 : ysValThrAsnProIleGlyIleProPheAlaGluMetSerGlnIleValGlyL :       63
+            !!|||..!!.!|||!!:|||||||||  !! !|||!!: !!:!!:!!||||||!
+            luValValThrProMetGlyIleProAlaGluGluIleProLysLeuValGlyM
+ 11786594 : AGGTGGTCACCCCAATGGGCATCCCTGCCGAGGAGATCCCCAAACTAGTGGGAA : 11786647
+
+       64 : ysGlnValAsnThrProValAlaLysGlyGlnThrLeuMetProAsnMetValL :       81
+             !|||||||||! ! !!||| !!  !|||  !||||||||||||:!!|||||||
+            etGlnValAsnArgAlaValProLeuGlyThrThrLeuMetProAspMetValL
+ 11786648 : TGCAAGTGAACAGGGCAGTGCCGTTGGGCACAACCCTCATGCCAGACATGGTGA : 11786701
+
+       82 : ysThrTyr :       83
+            ||!.!|||
+            ysAsnTyr
+ 11786702 : AAAACTAT : 11786709
+
+vulgar: Mamericanus_AFP_protein 0 83 . ptg000084l 11786280 11786709 + 244 M 24 72 5 0 2 I 0 176 3 0 2 M 59 177
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:protein2genome:local 2.4.0
+##date 2024-11-18
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+ptg000084l	exonerate:protein2genome:local	gene	11786281	11786709	244	+	.	gene_id 6 ; sequence Mamericanus_AFP_protein ; gene_orientation + ; identity 65.06 ; similarity 79.52
+ptg000084l	exonerate:protein2genome:local	cds	11786281	11786352	.	+	.	
+ptg000084l	exonerate:protein2genome:local	exon	11786281	11786352	.	+	.	insertions 0 ; deletions 0 ; identity 76.00 ; similarity 92.00
+ptg000084l	exonerate:protein2genome:local	splice5	11786353	11786354	.	+	.	intron_id 1 ; splice_site "GT"
+ptg000084l	exonerate:protein2genome:local	intron	11786353	11786532	.	+	.	intron_id 1
+ptg000084l	exonerate:protein2genome:local	splice3	11786531	11786532	.	+	.	intron_id 0 ; splice_site "CC"
+ptg000084l	exonerate:protein2genome:local	cds	11786533	11786709	.	+	.	
+ptg000084l	exonerate:protein2genome:local	exon	11786533	11786709	.	+	.	insertions 0 ; deletions 0 ; identity 61.02 ; similarity 74.58
+ptg000084l	exonerate:protein2genome:local	similarity	11786281	11786709	244	+	.	alignment_id 6 ; Query Mamericanus_AFP_protein ; Align 11786281 1 72 ; Align 11786533 25 177
+# --- END OF GFF DUMP ---
+#
+
+C4 Alignment:
+------------
+         Query: Mamericanus_AFP_protein J03924.1
+        Target: ptg000084l
+         Model: protein2genome:local
+     Raw score: 244
+   Query range: 0 -> 83
+  Target range: 11685299 -> 11685728
+
+        1 : MetLysSerValIleLeuThrGlyLeuLeuPheValLeuLeuCysValAspHis :       18
+            ||||||||||||:!!|||||||||||||||||||||||||||||||||||||||
+            MetLysSerValValLeuThrGlyLeuLeuPheValLeuLeuCysValAspHis
+ 11685300 : ATGAAGTCAGTTGTTTTAACTGGTTTGCTGTTCGTCCTCCTTTGTGTCGACCAC : 11685351
+
+       19 : MetThrAlaSerGlnSer  >>>> Target Intron 1 >>>>  ValValA :       27
+            |||!:!:!!:!!.!.!.!            180 bp           |||||||
+            MetSerSerAlaAsnLys++                         --ValValA
+ 11685352 : ATGAGTTCAGCCAACAAGgt.........................ccGTGGTGG : 11685558
+
+       28 : laThrGlnLeuIleProIleAsnThrAlaLeuThrProValMetMetGluGlyL :       45
+            ||!.!||||||||||||||||||||||||||||||! !:!!||||||:!!!.!:
+            laAsnGlnLeuIleProIleAsnThrAlaLeuThrLeuIleMetMetLysAlaG
+ 11685559 : CCAACCAGCTGATCCCCATAAATACTGCCCTGACTCTGATAATGATGAAGGCGG : 11685612
+
+       46 : ysValThrAsnProIleGlyIleProPheAlaGluMetSerGlnIleValGlyL :       63
+            !!|||..!!.!|||!!:|||||||||  !! !|||!!: !!:!!:!!||||||!
+            luValValThrProMetGlyIleProAlaGluGluIleProLysLeuValGlyM
+ 11685613 : AGGTGGTCACCCCAATGGGCATCCCCGCCGAGGAGATCCCCAAACTAGTGGGAA : 11685666
+
+       64 : ysGlnValAsnThrProValAlaLysGlyGlnThrLeuMetProAsnMetValL :       81
+             !|||||||||! ! !!||| !!  !|||  !||||||||||||:!!|||||||
+            etGlnValAsnArgAlaValProLeuGlyThrThrLeuMetProAspMetValL
+ 11685667 : TGCAAGTGAACAGGGCAGTGCCGTTGGGCACAACCCTCATGCCAGACATGGTGA : 11685720
+
+       82 : ysThrTyr :       83
+            ||!.!|||
+            ysAsnTyr
+ 11685721 : AAAACTAT : 11685728
+
+vulgar: Mamericanus_AFP_protein 0 83 . ptg000084l 11685299 11685728 + 244 M 24 72 5 0 2 I 0 176 3 0 2 M 59 177
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:protein2genome:local 2.4.0
+##date 2024-11-18
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+ptg000084l	exonerate:protein2genome:local	gene	11685300	11685728	244	+	.	gene_id 7 ; sequence Mamericanus_AFP_protein ; gene_orientation + ; identity 65.06 ; similarity 79.52
+ptg000084l	exonerate:protein2genome:local	cds	11685300	11685371	.	+	.	
+ptg000084l	exonerate:protein2genome:local	exon	11685300	11685371	.	+	.	insertions 0 ; deletions 0 ; identity 76.00 ; similarity 92.00
+ptg000084l	exonerate:protein2genome:local	splice5	11685372	11685373	.	+	.	intron_id 1 ; splice_site "GT"
+ptg000084l	exonerate:protein2genome:local	intron	11685372	11685551	.	+	.	intron_id 1
+ptg000084l	exonerate:protein2genome:local	splice3	11685550	11685551	.	+	.	intron_id 0 ; splice_site "CC"
+ptg000084l	exonerate:protein2genome:local	cds	11685552	11685728	.	+	.	
+ptg000084l	exonerate:protein2genome:local	exon	11685552	11685728	.	+	.	insertions 0 ; deletions 0 ; identity 61.02 ; similarity 74.58
+ptg000084l	exonerate:protein2genome:local	similarity	11685300	11685728	244	+	.	alignment_id 7 ; Query Mamericanus_AFP_protein ; Align 11685300 1 72 ; Align 11685552 25 177
+# --- END OF GFF DUMP ---
+#
+
+C4 Alignment:
+------------
+         Query: Mamericanus_AFP_protein J03924.1
+        Target: ptg000084l
+         Model: protein2genome:local
+     Raw score: 244
+   Query range: 0 -> 83
+  Target range: 11512440 -> 11512869
+
+        1 : MetLysSerValIleLeuThrGlyLeuLeuPheValLeuLeuCysValAspHis :       18
+            ||||||||||||:!!|||||||||||||||||||||||||||||||||||||||
+            MetLysSerValValLeuThrGlyLeuLeuPheValLeuLeuCysValAspHis
+ 11512441 : ATGAAGTCAGTTGTTTTAACTGGTTTGCTGTTCGTCCTCCTTTGTGTCGACCAC : 11512492
+
+       19 : MetThrAlaSerGlnSer  >>>> Target Intron 1 >>>>  ValValA :       27
+            |||!:!:!!:!!.!.!.!            180 bp           |||||||
+            MetSerSerAlaAsnLys++                         --ValValA
+ 11512493 : ATGAGTTCAGCCAACAAGgt.........................ccGTGGTGG : 11512699
+
+       28 : laThrGlnLeuIleProIleAsnThrAlaLeuThrProValMetMetGluGlyL :       45
+            ||!.!||||||||||||||||||||||||||||||! !:!!||||||:!!!.!:
+            laAsnGlnLeuIleProIleAsnThrAlaLeuThrLeuIleMetMetLysAlaG
+ 11512700 : CCAACCAGCTGATCCCCATAAATACTGCCCTGACTCTGATAATGATGAAGGCGG : 11512753
+
+       46 : ysValThrAsnProIleGlyIleProPheAlaGluMetSerGlnIleValGlyL :       63
+            !!|||..!!.!|||!!:|||||||||  !! !|||!!: !!:!!:!!||||||!
+            luValValThrProMetGlyIleProAlaGluGluIleProLysLeuValGlyM
+ 11512754 : AGGTGGTCACCCCAATGGGCATCCCTGCCGAGGAGATCCCCAAACTAGTGGGAA : 11512807
+
+       64 : ysGlnValAsnThrProValAlaLysGlyGlnThrLeuMetProAsnMetValL :       81
+             !|||||||||! ! !!||| !!  !|||  !||||||||||||:!!|||||||
+            etGlnValAsnArgAlaValProLeuGlyThrThrLeuMetProAspMetValL
+ 11512808 : TGCAAGTGAACAGGGCAGTGCCGTTGGGCACAACCCTCATGCCAGACATGGTGA : 11512861
+
+       82 : ysThrTyr :       83
+            ||!.!|||
+            ysAsnTyr
+ 11512862 : AAAACTAT : 11512869
+
+vulgar: Mamericanus_AFP_protein 0 83 . ptg000084l 11512440 11512869 + 244 M 24 72 5 0 2 I 0 176 3 0 2 M 59 177
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:protein2genome:local 2.4.0
+##date 2024-11-18
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+ptg000084l	exonerate:protein2genome:local	gene	11512441	11512869	244	+	.	gene_id 8 ; sequence Mamericanus_AFP_protein ; gene_orientation + ; identity 65.06 ; similarity 79.52
+ptg000084l	exonerate:protein2genome:local	cds	11512441	11512512	.	+	.	
+ptg000084l	exonerate:protein2genome:local	exon	11512441	11512512	.	+	.	insertions 0 ; deletions 0 ; identity 76.00 ; similarity 92.00
+ptg000084l	exonerate:protein2genome:local	splice5	11512513	11512514	.	+	.	intron_id 1 ; splice_site "GT"
+ptg000084l	exonerate:protein2genome:local	intron	11512513	11512692	.	+	.	intron_id 1
+ptg000084l	exonerate:protein2genome:local	splice3	11512691	11512692	.	+	.	intron_id 0 ; splice_site "CC"
+ptg000084l	exonerate:protein2genome:local	cds	11512693	11512869	.	+	.	
+ptg000084l	exonerate:protein2genome:local	exon	11512693	11512869	.	+	.	insertions 0 ; deletions 0 ; identity 61.02 ; similarity 74.58
+ptg000084l	exonerate:protein2genome:local	similarity	11512441	11512869	244	+	.	alignment_id 8 ; Query Mamericanus_AFP_protein ; Align 11512441 1 72 ; Align 11512693 25 177
+# --- END OF GFF DUMP ---
+#
+
+C4 Alignment:
+------------
+         Query: Mamericanus_AFP_protein J03924.1
+        Target: ptg000084l
+         Model: protein2genome:local
+     Raw score: 244
+   Query range: 0 -> 83
+  Target range: 11619912 -> 11620341
+
+        1 : MetLysSerValIleLeuThrGlyLeuLeuPheValLeuLeuCysValAspHis :       18
+            ||||||||||||:!!|||||||||||||||||||||||||||||||||||||||
+            MetLysSerValValLeuThrGlyLeuLeuPheValLeuLeuCysValAspHis
+ 11619913 : ATGAAGTCAGTTGTTTTAACTGGTTTGCTGTTCGTCCTCCTTTGTGTCGACCAC : 11619964
+
+       19 : MetThrAlaSerGlnSer  >>>> Target Intron 1 >>>>  ValValA :       27
+            |||!:!:!!:!!.!.!.!            180 bp           |||||||
+            MetSerSerAlaAsnLys++                         --ValValA
+ 11619965 : ATGAGTTCAGCCAACAAGgt.........................ccGTGGTGG : 11620171
+
+       28 : laThrGlnLeuIleProIleAsnThrAlaLeuThrProValMetMetGluGlyL :       45
+            ||!.!||||||||||||||||||||||||||||||! !:!!||||||:!!!.!:
+            laAsnGlnLeuIleProIleAsnThrAlaLeuThrLeuIleMetMetLysAlaG
+ 11620172 : CCAACCAGCTGATCCCCATAAATACTGCCCTGACTCTGATAATGATGAAGGCGG : 11620225
+
+       46 : ysValThrAsnProIleGlyIleProPheAlaGluMetSerGlnIleValGlyL :       63
+            !!|||..!!.!|||!!:|||||||||  !! !|||!!: !!:!!:!!||||||!
+            luValValThrProMetGlyIleProAlaGluGluIleProLysLeuValGlyM
+ 11620226 : AGGTGGTCACCCCAATGGGCATCCCCGCCGAGGAGATCCCCAAACTAGTGGGAA : 11620279
+
+       64 : ysGlnValAsnThrProValAlaLysGlyGlnThrLeuMetProAsnMetValL :       81
+             !|||||||||! ! !!||| !!  !|||  !||||||||||||:!!|||||||
+            etGlnValAsnArgAlaValProLeuGlyThrThrLeuMetProAspMetValL
+ 11620280 : TGCAAGTGAACAGGGCAGTGCCGTTGGGCACAACCCTCATGCCAGACATGGTGA : 11620333
+
+       82 : ysThrTyr :       83
+            ||!.!|||
+            ysAsnTyr
+ 11620334 : AAAACTAT : 11620341
+
+vulgar: Mamericanus_AFP_protein 0 83 . ptg000084l 11619912 11620341 + 244 M 24 72 5 0 2 I 0 176 3 0 2 M 59 177
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:protein2genome:local 2.4.0
+##date 2024-11-18
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+ptg000084l	exonerate:protein2genome:local	gene	11619913	11620341	244	+	.	gene_id 9 ; sequence Mamericanus_AFP_protein ; gene_orientation + ; identity 65.06 ; similarity 79.52
+ptg000084l	exonerate:protein2genome:local	cds	11619913	11619984	.	+	.	
+ptg000084l	exonerate:protein2genome:local	exon	11619913	11619984	.	+	.	insertions 0 ; deletions 0 ; identity 76.00 ; similarity 92.00
+ptg000084l	exonerate:protein2genome:local	splice5	11619985	11619986	.	+	.	intron_id 1 ; splice_site "GT"
+ptg000084l	exonerate:protein2genome:local	intron	11619985	11620164	.	+	.	intron_id 1
+ptg000084l	exonerate:protein2genome:local	splice3	11620163	11620164	.	+	.	intron_id 0 ; splice_site "CC"
+ptg000084l	exonerate:protein2genome:local	cds	11620165	11620341	.	+	.	
+ptg000084l	exonerate:protein2genome:local	exon	11620165	11620341	.	+	.	insertions 0 ; deletions 0 ; identity 61.02 ; similarity 74.58
+ptg000084l	exonerate:protein2genome:local	similarity	11619913	11620341	244	+	.	alignment_id 9 ; Query Mamericanus_AFP_protein ; Align 11619913 1 72 ; Align 11620165 25 177
+# --- END OF GFF DUMP ---
+#
+
+C4 Alignment:
+------------
+         Query: Mamericanus_AFP_protein J03924.1
+        Target: ptg000084l
+         Model: protein2genome:local
+     Raw score: 243
+   Query range: 0 -> 83
+  Target range: 11548108 -> 11556686
+
+        1 : MetLysSerValIleLeuThrGlyLeuLeuPheValLeuLeuCysValAspHis :       18
+            ||||||||||||:!!|||||||||||||||||||||||||||||||||||||||
+            MetLysSerValValLeuThrGlyLeuLeuPheValLeuLeuCysValAspHis
+ 11548109 : ATGAAGTCAGTTGTTTTAACTGGTTTGCTGTTCGTCCTCCTTTGTGTCGACCAC : 11548160
+
+       19 : Met<->ThrAlaSerGln  >>>> Target Intron 1 >>>>  SerValV :       26
+            |||   :!!|||!:!:!!           8326 bp           |||||||
+            MetSerSerAlaAsnLys++                         ++SerValV
+ 11548161 : ATGAGTTCAGCCAACAAGgt.........................agTCCGTGG : 11556513
+
+       27 : alAlaThrGlnLeuIleProIleAsnThrAlaLeuThrProValMetMetGluG :       44
+            |||||!.!||||||||||||||||||||||||||||||! !|||||||||:!!!
+            alAlaAsnGlnLeuIleProIleAsnThrAlaLeuThrLeuValMetMetLysA
+ 11556514 : TGGCCAACCAGCTGATCCCCATAAATACTGCCCTGACTCTAGTGATGATGAAGG : 11556567
+
+       45 : lyLysValThrAsnProIleGlyIleProPheAlaGluMetSerGlnIleValG :       62
+            .!|||! !..!!:!|||!  |||||||||  !! !|||!!: !!:!!|||||||
+            laLysGluValSerProLysGlyIleProAlaGluGluIleProLysIleValG
+ 11556568 : CGAAGGAAGTCAGCCCAAAGGGCATCCCTGCCGAGGAGATCCCCAAAATAGTGG : 11556621
+
+       63 : lyLysGlnValAsnThrProValAlaLysGlyGlnThrLeuMetProAsnMetV :       80
+            ||! !|||||||||! ! !!|||  !  !! !:!!||||||||||||:!!||||
+            lyMetGlnValAsnArgAlaValTyrLeuAspGluThrLeuMetProAspMetV
+ 11556622 : GAATGCAAGTGAACAGGGCAGTGTATCTGGACGAAACCCTCATGCCAGATATGG : 11556675
+
+       81 : alLysThrTyr :       83
+            |||||!.!|||
+            alLysAsnTyr
+ 11556676 : TGAAAAACTAT : 11556686
+
+vulgar: Mamericanus_AFP_protein 0 83 . ptg000084l 11548108 11556686 + 243 M 19 57 G 0 3 M 4 12 5 0 2 I 0 8322 3 0 2 M 60 180
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:protein2genome:local 2.4.0
+##date 2024-11-18
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+ptg000084l	exonerate:protein2genome:local	gene	11548109	11556686	243	+	.	gene_id 10 ; sequence Mamericanus_AFP_protein ; gene_orientation + ; identity 68.67 ; similarity 80.72
+ptg000084l	exonerate:protein2genome:local	cds	11548109	11548180	.	+	.	
+ptg000084l	exonerate:protein2genome:local	exon	11548109	11548180	.	+	.	insertions 3 ; deletions 0 ; identity 83.33 ; similarity 100.00
+ptg000084l	exonerate:protein2genome:local	splice5	11548181	11548182	.	+	.	intron_id 1 ; splice_site "GT"
+ptg000084l	exonerate:protein2genome:local	intron	11548181	11556506	.	+	.	intron_id 1
+ptg000084l	exonerate:protein2genome:local	splice3	11556505	11556506	.	+	.	intron_id 0 ; splice_site "AG"
+ptg000084l	exonerate:protein2genome:local	cds	11556507	11556686	.	+	.	
+ptg000084l	exonerate:protein2genome:local	exon	11556507	11556686	.	+	.	insertions 0 ; deletions 0 ; identity 63.33 ; similarity 73.33
+ptg000084l	exonerate:protein2genome:local	similarity	11548109	11556686	243	+	.	alignment_id 10 ; Query Mamericanus_AFP_protein ; Align 11548109 1 57 ; Align 11548169 20 12 ; Align 11556507 24 180
+# --- END OF GFF DUMP ---
+#
+
+C4 Alignment:
+------------
+         Query: Mamericanus_AFP_protein J03924.1
+        Target: ptg000084l
+         Model: protein2genome:local
+     Raw score: 243
+   Query range: 0 -> 83
+  Target range: 11592860 -> 11601219
+
+        1 : MetLysSerValIleLeuThrGlyLeuLeuPheValLeuLeuCysValAspHis :       18
+            ||||||||||||:!!|||||||||||||||||||||||||||||||||||||||
+            MetLysSerValValLeuThrGlyLeuLeuPheValLeuLeuCysValAspHis
+ 11592861 : ATGAAGTCAGTTGTTTTAACTGGTTTGCTGTTCGTCCTCCTTTGTGTCGACCAC : 11592912
+
+       19 : Met<->ThrAlaSerGln  >>>> Target Intron 1 >>>>  SerValV :       26
+            |||   :!!|||!:!:!!           8107 bp           |||||||
+            MetSerSerAlaAsnLys++                         ++SerValV
+ 11592913 : ATGAGTTCAGCCAACAAGgt.........................agTCCGTGG : 11601046
+
+       27 : alAlaThrGlnLeuIleProIleAsnThrAlaLeuThrProValMetMetGluG :       44
+            |||||!.!||||||||||||||||||||||||||||||! !|||||||||:!!!
+            alAlaAsnGlnLeuIleProIleAsnThrAlaLeuThrLeuValMetMetLysA
+ 11601047 : TGGCCAACCAGCTGATCCCCATAAATACTGCCCTGACTCTAGTGATGATGAAGG : 11601100
+
+       45 : lyLysValThrAsnProIleGlyIleProPheAlaGluMetSerGlnIleValG :       62
+            .!|||! !..!!:!|||!  |||||||||  !! !|||!!: !!:!!|||||||
+            laLysGluValSerProLysGlyIleProAlaGluGluIleProLysIleValG
+ 11601101 : CGAAGGAAGTCAGCCCAAAGGGCATCCCTGCCGAGGAGATCCCCAAAATAGTGG : 11601154
+
+       63 : lyLysGlnValAsnThrProValAlaLysGlyGlnThrLeuMetProAsnMetV :       80
+            ||! !|||||||||! ! !!|||  !  !! !:!!||||||||||||:!!||||
+            lyMetGlnValAsnArgAlaValTyrLeuAspGluThrLeuMetProAspMetV
+ 11601155 : GAATGCAAGTGAACAGGGCAGTGTATCTGGACGAAACCCTCATGCCAGATATGG : 11601208
+
+       81 : alLysThrTyr :       83
+            |||||!.!|||
+            alLysAsnTyr
+ 11601209 : TGAAAAACTAT : 11601219
+
+vulgar: Mamericanus_AFP_protein 0 83 . ptg000084l 11592860 11601219 + 243 M 19 57 G 0 3 M 4 12 5 0 2 I 0 8103 3 0 2 M 60 180
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:protein2genome:local 2.4.0
+##date 2024-11-18
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+ptg000084l	exonerate:protein2genome:local	gene	11592861	11601219	243	+	.	gene_id 11 ; sequence Mamericanus_AFP_protein ; gene_orientation + ; identity 68.67 ; similarity 80.72
+ptg000084l	exonerate:protein2genome:local	cds	11592861	11592932	.	+	.	
+ptg000084l	exonerate:protein2genome:local	exon	11592861	11592932	.	+	.	insertions 3 ; deletions 0 ; identity 83.33 ; similarity 100.00
+ptg000084l	exonerate:protein2genome:local	splice5	11592933	11592934	.	+	.	intron_id 1 ; splice_site "GT"
+ptg000084l	exonerate:protein2genome:local	intron	11592933	11601039	.	+	.	intron_id 1
+ptg000084l	exonerate:protein2genome:local	splice3	11601038	11601039	.	+	.	intron_id 0 ; splice_site "AG"
+ptg000084l	exonerate:protein2genome:local	cds	11601040	11601219	.	+	.	
+ptg000084l	exonerate:protein2genome:local	exon	11601040	11601219	.	+	.	insertions 0 ; deletions 0 ; identity 63.33 ; similarity 73.33
+ptg000084l	exonerate:protein2genome:local	similarity	11592861	11601219	243	+	.	alignment_id 11 ; Query Mamericanus_AFP_protein ; Align 11592861 1 57 ; Align 11592921 20 12 ; Align 11601040 24 180
+# --- END OF GFF DUMP ---
+#
+
+C4 Alignment:
+------------
+         Query: Mamericanus_AFP_protein J03924.1
+        Target: ptg000084l
+         Model: protein2genome:local
+     Raw score: 243
+   Query range: 0 -> 83
+  Target range: 11454323 -> 11462908
+
+        1 : MetLysSerValIleLeuThrGlyLeuLeuPheValLeuLeuCysValAspHis :       18
+            ||||||||||||:!!|||||||||||||||||||||||||||||||||||||||
+            MetLysSerValValLeuThrGlyLeuLeuPheValLeuLeuCysValAspHis
+ 11454324 : ATGAAGTCAGTTGTTTTAACTGGTTTGCTGTTCGTCCTCCTTTGTGTCGACCAC : 11454375
+
+       19 : Met<->ThrAlaSerGln  >>>> Target Intron 1 >>>>  SerValV :       26
+            |||   :!!|||!:!:!!           8333 bp           |||||||
+            MetSerSerAlaAsnLys++                         ++SerValV
+ 11454376 : ATGAGTTCAGCCAACAAGgt.........................agTCCGTGG : 11462735
+
+       27 : alAlaThrGlnLeuIleProIleAsnThrAlaLeuThrProValMetMetGluG :       44
+            |||||!.!||||||||||||||||||||||||||||||! !|||||||||:!!!
+            alAlaAsnGlnLeuIleProIleAsnThrAlaLeuThrLeuValMetMetLysA
+ 11462736 : TGGCCAACCAGCTGATCCCCATAAATACTGCCCTGACTCTAGTGATGATGAAGG : 11462789
+
+       45 : lyLysValThrAsnProIleGlyIleProPheAlaGluMetSerGlnIleValG :       62
+            .!|||! !..!!:!|||!  |||||||||  !! !|||!!: !!:!!|||||||
+            laLysGluValSerProLysGlyIleProAlaGluGluIleProLysIleValG
+ 11462790 : CGAAGGAAGTCAGCCCAAAGGGCATCCCTGCCGAGGAGATCCCCAAAATAGTGG : 11462843
+
+       63 : lyLysGlnValAsnThrProValAlaLysGlyGlnThrLeuMetProAsnMetV :       80
+            ||! !|||||||||! ! !!|||  !  !! !:!!||||||||||||:!!||||
+            lyMetGlnValAsnArgAlaValTyrLeuAspGluThrLeuMetProAspMetV
+ 11462844 : GAATGCAAGTGAACAGGGCAGTGTATCTGGACGAAACCCTCATGCCAGATATGG : 11462897
+
+       81 : alLysThrTyr :       83
+            |||||!.!|||
+            alLysAsnTyr
+ 11462898 : TGAAAAACTAT : 11462908
+
+vulgar: Mamericanus_AFP_protein 0 83 . ptg000084l 11454323 11462908 + 243 M 19 57 G 0 3 M 4 12 5 0 2 I 0 8329 3 0 2 M 60 180
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:protein2genome:local 2.4.0
+##date 2024-11-18
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+ptg000084l	exonerate:protein2genome:local	gene	11454324	11462908	243	+	.	gene_id 12 ; sequence Mamericanus_AFP_protein ; gene_orientation + ; identity 68.67 ; similarity 80.72
+ptg000084l	exonerate:protein2genome:local	cds	11454324	11454395	.	+	.	
+ptg000084l	exonerate:protein2genome:local	exon	11454324	11454395	.	+	.	insertions 3 ; deletions 0 ; identity 83.33 ; similarity 100.00
+ptg000084l	exonerate:protein2genome:local	splice5	11454396	11454397	.	+	.	intron_id 1 ; splice_site "GT"
+ptg000084l	exonerate:protein2genome:local	intron	11454396	11462728	.	+	.	intron_id 1
+ptg000084l	exonerate:protein2genome:local	splice3	11462727	11462728	.	+	.	intron_id 0 ; splice_site "AG"
+ptg000084l	exonerate:protein2genome:local	cds	11462729	11462908	.	+	.	
+ptg000084l	exonerate:protein2genome:local	exon	11462729	11462908	.	+	.	insertions 0 ; deletions 0 ; identity 63.33 ; similarity 73.33
+ptg000084l	exonerate:protein2genome:local	similarity	11454324	11462908	243	+	.	alignment_id 12 ; Query Mamericanus_AFP_protein ; Align 11454324 1 57 ; Align 11454384 20 12 ; Align 11462729 24 180
+# --- END OF GFF DUMP ---
+#
+
+C4 Alignment:
+------------
+         Query: Mamericanus_AFP_protein J03924.1
+        Target: ptg000084l
+         Model: protein2genome:local
+     Raw score: 242
+   Query range: 0 -> 83
+  Target range: 11695381 -> 11695810
+
+        1 : MetLysSerValIleLeuThrGlyLeuLeuPheValLeuLeuCysValAspHis :       18
+            ||||||||||||:!!|||||||||||||||||||||||||||||||||||||||
+            MetLysSerValValLeuThrGlyLeuLeuPheValLeuLeuCysValAspHis
+ 11695382 : ATGAAGTCAGTTGTTTTAACTGGTTTGCTGTTCGTCCTCCTTTGTGTCGACCAC : 11695433
+
+       19 : MetThrAlaSerGlnSer  >>>> Target Intron 1 >>>>  ValValA :       27
+            |||!:!:!!:!!.!.!.!            180 bp           |||||||
+            MetSerSerAlaAsnLys++                         --ValValA
+ 11695434 : ATGAGTTCAGCCAACAAGgt.........................ccGTGGTGG : 11695640
+
+       28 : laThrGlnLeuIleProIleAsnThrAlaLeuThrProValMetMetGluGlyL :       45
+            ||!.!||||||||||||||||||||||||||||||! !:!!||||||:!!!.!:
+            laAsnGlnLeuIleProIleAsnThrAlaLeuThrLeuIleMetMetLysAlaG
+ 11695641 : CCAACCAGCTGATCCCCATAAATACTGCCCTGACTCTGATAATGATGAAGGCGG : 11695694
+
+       46 : ysValThrAsnProIleGlyIleProPheAlaGluMetSerGlnIleValGlyL :       63
+            !!|||..!!.!|||!!:|||||||||  !! !!!:!!: !!!:!|||:!!|||!
+            luValValThrProMetGlyIleProAlaGluAspIleProArgIleIleGlyM
+ 11695695 : AGGTGGTCACCCCAATGGGCATCCCCGCCGAGGACATTCCCCGAATAATCGGAA : 11695748
+
+       64 : ysGlnValAsnThrProValAlaLysGlyGlnThrLeuMetProAsnMetValL :       81
+             !|||||||||! ! !!||| !!  !|||  !||||||||||||:!!|||||||
+            etGlnValAsnArgAlaValProLeuGlyThrThrLeuMetProAspMetValL
+ 11695749 : TGCAAGTGAACAGGGCAGTGCCGTTGGGCACAACCCTCATGCCAGACATGGTGA : 11695802
+
+       82 : ysThrTyr :       83
+            ||!.!|||
+            ysAsnTyr
+ 11695803 : AAAACTAT : 11695810
+
+vulgar: Mamericanus_AFP_protein 0 83 . ptg000084l 11695381 11695810 + 242 M 24 72 5 0 2 I 0 176 3 0 2 M 59 177
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:protein2genome:local 2.4.0
+##date 2024-11-18
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+ptg000084l	exonerate:protein2genome:local	gene	11695382	11695810	242	+	.	gene_id 13 ; sequence Mamericanus_AFP_protein ; gene_orientation + ; identity 63.86 ; similarity 79.52
+ptg000084l	exonerate:protein2genome:local	cds	11695382	11695453	.	+	.	
+ptg000084l	exonerate:protein2genome:local	exon	11695382	11695453	.	+	.	insertions 0 ; deletions 0 ; identity 76.00 ; similarity 92.00
+ptg000084l	exonerate:protein2genome:local	splice5	11695454	11695455	.	+	.	intron_id 1 ; splice_site "GT"
+ptg000084l	exonerate:protein2genome:local	intron	11695454	11695633	.	+	.	intron_id 1
+ptg000084l	exonerate:protein2genome:local	splice3	11695632	11695633	.	+	.	intron_id 0 ; splice_site "CC"
+ptg000084l	exonerate:protein2genome:local	cds	11695634	11695810	.	+	.	
+ptg000084l	exonerate:protein2genome:local	exon	11695634	11695810	.	+	.	insertions 0 ; deletions 0 ; identity 59.32 ; similarity 74.58
+ptg000084l	exonerate:protein2genome:local	similarity	11695382	11695810	242	+	.	alignment_id 13 ; Query Mamericanus_AFP_protein ; Align 11695382 1 72 ; Align 11695634 25 177
+# --- END OF GFF DUMP ---
+#
+
+C4 Alignment:
+------------
+         Query: Mamericanus_AFP_protein J03924.1
+        Target: ptg000084l
+         Model: protein2genome:local
+     Raw score: 242
+   Query range: 0 -> 83
+  Target range: 11758380 -> 11758809
+
+        1 : MetLysSerValIleLeuThrGlyLeuLeuPheValLeuLeuCysValAspHis :       18
+            ||||||||||||:!!|||||||||||||||||||||||||||||||||||||||
+            MetLysSerValValLeuThrGlyLeuLeuPheValLeuLeuCysValAspHis
+ 11758381 : ATGAAGTCAGTTGTTTTAACTGGTTTGCTGTTCGTCCTCCTTTGTGTCGACCAC : 11758432
+
+       19 : MetThrAlaSerGlnSer  >>>> Target Intron 1 >>>>  ValValA :       27
+            |||!:!:!!:!!.!.!.!            180 bp           |||||||
+            MetSerSerAlaAsnLys++                         --ValValA
+ 11758433 : ATGAGTTCAGCCAACAAGgt.........................ccGTGGTGG : 11758639
+
+       28 : laThrGlnLeuIleProIleAsnThrAlaLeuThrProValMetMetGluGlyL :       45
+            ||!.!||||||||||||||||||||||||||||||! !:!!||||||:!!!.!:
+            laAsnGlnLeuIleProIleAsnThrAlaLeuThrLeuIleMetMetLysAlaG
+ 11758640 : CCAACCAGCTGATCCCCATAAATACTGCCCTGACTCTGATAATGATGAAGGCGG : 11758693
+
+       46 : ysValThrAsnProIleGlyIleProPheAlaGluMetSerGlnIleValGlyL :       63
+            !!|||..!!.!|||!!:|||||||||  !! !!!:!!: !!!:!|||:!!|||!
+            luValValThrProMetGlyIleProAlaGluAspIleProArgIleIleGlyM
+ 11758694 : AGGTGGTCACCCCAATGGGCATCCCCGCCGAGGACATTCCCCGAATAATCGGAA : 11758747
+
+       64 : ysGlnValAsnThrProValAlaLysGlyGlnThrLeuMetProAsnMetValL :       81
+             !|||||||||! ! !!||| !!  !|||  !||||||||||||:!!|||||||
+            etGlnValAsnArgAlaValProLeuGlyThrThrLeuMetProAspMetValL
+ 11758748 : TGCAAGTGAACAGGGCAGTGCCGTTGGGCACAACCCTCATGCCAGACATGGTGA : 11758801
+
+       82 : ysThrTyr :       83
+            ||!.!|||
+            ysAsnTyr
+ 11758802 : AAAACTAT : 11758809
+
+vulgar: Mamericanus_AFP_protein 0 83 . ptg000084l 11758380 11758809 + 242 M 24 72 5 0 2 I 0 176 3 0 2 M 59 177
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:protein2genome:local 2.4.0
+##date 2024-11-18
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+ptg000084l	exonerate:protein2genome:local	gene	11758381	11758809	242	+	.	gene_id 14 ; sequence Mamericanus_AFP_protein ; gene_orientation + ; identity 63.86 ; similarity 79.52
+ptg000084l	exonerate:protein2genome:local	cds	11758381	11758452	.	+	.	
+ptg000084l	exonerate:protein2genome:local	exon	11758381	11758452	.	+	.	insertions 0 ; deletions 0 ; identity 76.00 ; similarity 92.00
+ptg000084l	exonerate:protein2genome:local	splice5	11758453	11758454	.	+	.	intron_id 1 ; splice_site "GT"
+ptg000084l	exonerate:protein2genome:local	intron	11758453	11758632	.	+	.	intron_id 1
+ptg000084l	exonerate:protein2genome:local	splice3	11758631	11758632	.	+	.	intron_id 0 ; splice_site "CC"
+ptg000084l	exonerate:protein2genome:local	cds	11758633	11758809	.	+	.	
+ptg000084l	exonerate:protein2genome:local	exon	11758633	11758809	.	+	.	insertions 0 ; deletions 0 ; identity 59.32 ; similarity 74.58
+ptg000084l	exonerate:protein2genome:local	similarity	11758381	11758809	242	+	.	alignment_id 14 ; Query Mamericanus_AFP_protein ; Align 11758381 1 72 ; Align 11758633 25 177
+# --- END OF GFF DUMP ---
+#
+
+C4 Alignment:
+------------
+         Query: Mamericanus_AFP_protein J03924.1
+        Target: ptg000084l
+         Model: protein2genome:local
+     Raw score: 242
+   Query range: 0 -> 83
+  Target range: 11609454 -> 11609883
+
+        1 : MetLysSerValIleLeuThrGlyLeuLeuPheValLeuLeuCysValAspHis :       18
+            ||||||||||||:!!|||||||||||||||||||||||||||||||||||||||
+            MetLysSerValValLeuThrGlyLeuLeuPheValLeuLeuCysValAspHis
+ 11609455 : ATGAAGTCAGTTGTTTTAACTGGTTTGCTGTTCGTCCTCCTTTGTGTCGACCAC : 11609506
+
+       19 : MetThrAlaSerGlnSer  >>>> Target Intron 1 >>>>  ValValA :       27
+            |||!:!:!!:!!.!.!.!            180 bp           |||||||
+            MetSerSerAlaAsnLys++                         --ValValA
+ 11609507 : ATGAGTTCAGCCAACAAGgt.........................ccGTGGTGG : 11609713
+
+       28 : laThrGlnLeuIleProIleAsnThrAlaLeuThrProValMetMetGluGlyL :       45
+            ||!.!||||||||||||||||||||||||||||||! !:!!||||||:!!!.!:
+            laAsnGlnLeuIleProIleAsnThrAlaLeuThrLeuIleMetMetLysAlaG
+ 11609714 : CCAACCAGCTGATCCCCATAAATACTGCCCTGACTCTGATAATGATGAAGGCGG : 11609767
+
+       46 : ysValThrAsnProIleGlyIleProPheAlaGluMetSerGlnIleValGlyL :       63
+            !!|||..!!.!|||!!:|||||||||  !! !!!:!!: !!!:!|||:!!|||!
+            luValValThrProMetGlyIleProAlaGluAspIleProArgIleIleGlyM
+ 11609768 : AGGTGGTCACCCCAATGGGCATCCCCGCCGAGGACATTCCCCGAATAATCGGAA : 11609821
+
+       64 : ysGlnValAsnThrProValAlaLysGlyGlnThrLeuMetProAsnMetValL :       81
+             !|||||||||! ! !!||| !!  !|||  !||||||||||||:!!|||||||
+            etGlnValAsnArgAlaValProLeuGlyThrThrLeuMetProAspMetValL
+ 11609822 : TGCAAGTGAACAGGGCAGTGCCGTTGGGCACAACCCTCATGCCAGACATGGTGA : 11609875
+
+       82 : ysThrTyr :       83
+            ||!.!|||
+            ysAsnTyr
+ 11609876 : AAAACTAT : 11609883
+
+vulgar: Mamericanus_AFP_protein 0 83 . ptg000084l 11609454 11609883 + 242 M 24 72 5 0 2 I 0 176 3 0 2 M 59 177
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:protein2genome:local 2.4.0
+##date 2024-11-18
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+ptg000084l	exonerate:protein2genome:local	gene	11609455	11609883	242	+	.	gene_id 15 ; sequence Mamericanus_AFP_protein ; gene_orientation + ; identity 63.86 ; similarity 79.52
+ptg000084l	exonerate:protein2genome:local	cds	11609455	11609526	.	+	.	
+ptg000084l	exonerate:protein2genome:local	exon	11609455	11609526	.	+	.	insertions 0 ; deletions 0 ; identity 76.00 ; similarity 92.00
+ptg000084l	exonerate:protein2genome:local	splice5	11609527	11609528	.	+	.	intron_id 1 ; splice_site "GT"
+ptg000084l	exonerate:protein2genome:local	intron	11609527	11609706	.	+	.	intron_id 1
+ptg000084l	exonerate:protein2genome:local	splice3	11609705	11609706	.	+	.	intron_id 0 ; splice_site "CC"
+ptg000084l	exonerate:protein2genome:local	cds	11609707	11609883	.	+	.	
+ptg000084l	exonerate:protein2genome:local	exon	11609707	11609883	.	+	.	insertions 0 ; deletions 0 ; identity 59.32 ; similarity 74.58
+ptg000084l	exonerate:protein2genome:local	similarity	11609455	11609883	242	+	.	alignment_id 15 ; Query Mamericanus_AFP_protein ; Align 11609455 1 72 ; Align 11609707 25 177
+# --- END OF GFF DUMP ---
+#
+
+C4 Alignment:
+------------
+         Query: Mamericanus_AFP_protein J03924.1
+        Target: ptg000084l
+         Model: protein2genome:local
+     Raw score: 242
+   Query range: 0 -> 83
+  Target range: 11846826 -> 11847255
+
+        1 : MetLysSerValIleLeuThrGlyLeuLeuPheValLeuLeuCysValAspHis :       18
+            ||||||||||||:!!|||||||||||||||||||||||||||||||||||||||
+            MetLysSerValValLeuThrGlyLeuLeuPheValLeuLeuCysValAspHis
+ 11846827 : ATGAAGTCAGTTGTTTTAACTGGTTTGCTGTTCGTCCTCCTTTGTGTCGACCAC : 11846878
+
+       19 : MetThrAlaSerGlnSer  >>>> Target Intron 1 >>>>  ValValA :       27
+            |||!:!:!!:!!.!.!.!            180 bp           |||||||
+            MetSerSerAlaAsnLys++                         --ValValA
+ 11846879 : ATGAGTTCAGCCAACAAGgt.........................ccGTGGTGG : 11847085
+
+       28 : laThrGlnLeuIleProIleAsnThrAlaLeuThrProValMetMetGluGlyL :       45
+            ||!.!||||||||||||||||||||||||||||||! !:!!||||||:!!!.!:
+            laAsnGlnLeuIleProIleAsnThrAlaLeuThrLeuIleMetMetLysAlaG
+ 11847086 : CCAACCAGCTGATCCCCATAAATACTGCCCTGACTCTGATAATGATGAAGGCGG : 11847139
+
+       46 : ysValThrAsnProIleGlyIleProPheAlaGluMetSerGlnIleValGlyL :       63
+            !!|||..!!.!|||!!:|||||||||  !! !!!:!!: !!!:!|||:!!|||!
+            luValValThrProMetGlyIleProAlaGluAspIleProArgIleIleGlyM
+ 11847140 : AGGTGGTCACCCCAATGGGCATCCCCGCCGAGGACATTCCCCGAATAATCGGAA : 11847193
+
+       64 : ysGlnValAsnThrProValAlaLysGlyGlnThrLeuMetProAsnMetValL :       81
+             !|||||||||! ! !!||| !!  !|||  !||||||||||||:!!|||||||
+            etGlnValAsnArgAlaValProLeuGlyThrThrLeuMetProAspMetValL
+ 11847194 : TGCAAGTGAACAGGGCAGTGCCGTTGGGCACAACCCTCATGCCAGATATGGTGA : 11847247
+
+       82 : ysThrTyr :       83
+            ||!.!|||
+            ysAsnTyr
+ 11847248 : AAAACTAT : 11847255
+
+vulgar: Mamericanus_AFP_protein 0 83 . ptg000084l 11846826 11847255 + 242 M 24 72 5 0 2 I 0 176 3 0 2 M 59 177
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:protein2genome:local 2.4.0
+##date 2024-11-18
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+ptg000084l	exonerate:protein2genome:local	gene	11846827	11847255	242	+	.	gene_id 16 ; sequence Mamericanus_AFP_protein ; gene_orientation + ; identity 63.86 ; similarity 79.52
+ptg000084l	exonerate:protein2genome:local	cds	11846827	11846898	.	+	.	
+ptg000084l	exonerate:protein2genome:local	exon	11846827	11846898	.	+	.	insertions 0 ; deletions 0 ; identity 76.00 ; similarity 92.00
+ptg000084l	exonerate:protein2genome:local	splice5	11846899	11846900	.	+	.	intron_id 1 ; splice_site "GT"
+ptg000084l	exonerate:protein2genome:local	intron	11846899	11847078	.	+	.	intron_id 1
+ptg000084l	exonerate:protein2genome:local	splice3	11847077	11847078	.	+	.	intron_id 0 ; splice_site "CC"
+ptg000084l	exonerate:protein2genome:local	cds	11847079	11847255	.	+	.	
+ptg000084l	exonerate:protein2genome:local	exon	11847079	11847255	.	+	.	insertions 0 ; deletions 0 ; identity 59.32 ; similarity 74.58
+ptg000084l	exonerate:protein2genome:local	similarity	11846827	11847255	242	+	.	alignment_id 16 ; Query Mamericanus_AFP_protein ; Align 11846827 1 72 ; Align 11847079 25 177
+# --- END OF GFF DUMP ---
+#
+
+C4 Alignment:
+------------
+         Query: Mamericanus_AFP_protein J03924.1
+        Target: ptg000084l
+         Model: protein2genome:local
+     Raw score: 242
+   Query range: 0 -> 83
+  Target range: 11471439 -> 11471868
+
+        1 : MetLysSerValIleLeuThrGlyLeuLeuPheValLeuLeuCysValAspHis :       18
+            ||||||||||||:!!|||||||||||||||||||||||||||||||||||||||
+            MetLysSerValValLeuThrGlyLeuLeuPheValLeuLeuCysValAspHis
+ 11471440 : ATGAAGTCAGTTGTTTTAACTGGTTTGCTGTTCGTCCTCCTTTGTGTCGACCAC : 11471491
+
+       19 : MetThrAlaSerGlnSer  >>>> Target Intron 1 >>>>  ValValA :       27
+            |||!:!:!!:!!.!.!.!            180 bp           |||||||
+            MetSerSerAlaAsnLys++                         --ValValA
+ 11471492 : ATGAGTTCAGCCAACAAGgt.........................ccGTGGTGG : 11471698
+
+       28 : laThrGlnLeuIleProIleAsnThrAlaLeuThrProValMetMetGluGlyL :       45
+            ||!.!||||||||||||||||||||||||||||||! !:!!||||||:!!!.!:
+            laAsnGlnLeuIleProIleAsnThrAlaLeuThrLeuIleMetMetLysAlaG
+ 11471699 : CCAACCAGCTGATCCCCATAAATACTGCCCTGACTCTGATAATGATGAAGGCGG : 11471752
+
+       46 : ysValThrAsnProIleGlyIleProPheAlaGluMetSerGlnIleValGlyL :       63
+            !!|||..!!.!|||!!:|||||||||  !! !!!:!!: !!!:!|||:!!|||!
+            luValValThrProMetGlyIleProAlaGluAspIleProArgIleIleGlyM
+ 11471753 : AGGTGGTCACCCCAATGGGCATCCCCGCCGAGGACATTCCCCGAATAATCGGAA : 11471806
+
+       64 : ysGlnValAsnThrProValAlaLysGlyGlnThrLeuMetProAsnMetValL :       81
+             !|||||||||! ! !!||| !!  !|||  !||||||||||||:!!|||||||
+            etGlnValAsnArgAlaValProLeuGlyThrThrLeuMetProAspMetValL
+ 11471807 : TGCAAGTGAACAGGGCAGTGCCGTTGGGCACAACCCTCATGCCAGACATGGTGA : 11471860
+
+       82 : ysThrTyr :       83
+            ||!.!|||
+            ysAsnTyr
+ 11471861 : AAAACTAT : 11471868
+
+vulgar: Mamericanus_AFP_protein 0 83 . ptg000084l 11471439 11471868 + 242 M 24 72 5 0 2 I 0 176 3 0 2 M 59 177
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:protein2genome:local 2.4.0
+##date 2024-11-18
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+ptg000084l	exonerate:protein2genome:local	gene	11471440	11471868	242	+	.	gene_id 17 ; sequence Mamericanus_AFP_protein ; gene_orientation + ; identity 63.86 ; similarity 79.52
+ptg000084l	exonerate:protein2genome:local	cds	11471440	11471511	.	+	.	
+ptg000084l	exonerate:protein2genome:local	exon	11471440	11471511	.	+	.	insertions 0 ; deletions 0 ; identity 76.00 ; similarity 92.00
+ptg000084l	exonerate:protein2genome:local	splice5	11471512	11471513	.	+	.	intron_id 1 ; splice_site "GT"
+ptg000084l	exonerate:protein2genome:local	intron	11471512	11471691	.	+	.	intron_id 1
+ptg000084l	exonerate:protein2genome:local	splice3	11471690	11471691	.	+	.	intron_id 0 ; splice_site "CC"
+ptg000084l	exonerate:protein2genome:local	cds	11471692	11471868	.	+	.	
+ptg000084l	exonerate:protein2genome:local	exon	11471692	11471868	.	+	.	insertions 0 ; deletions 0 ; identity 59.32 ; similarity 74.58
+ptg000084l	exonerate:protein2genome:local	similarity	11471440	11471868	242	+	.	alignment_id 17 ; Query Mamericanus_AFP_protein ; Align 11471440 1 72 ; Align 11471692 25 177
+# --- END OF GFF DUMP ---
+#
+
+C4 Alignment:
+------------
+         Query: Mamericanus_AFP_protein J03924.1
+        Target: ptg000084l
+         Model: protein2genome:local
+     Raw score: 242
+   Query range: 0 -> 83
+  Target range: 11712665 -> 11713094
+
+        1 : MetLysSerValIleLeuThrGlyLeuLeuPheValLeuLeuCysValAspHis :       18
+            ||||||||||||:!!|||||||||||||||||||||||||||||||||||||||
+            MetLysSerValValLeuThrGlyLeuLeuPheValLeuLeuCysValAspHis
+ 11712666 : ATGAAGTCAGTTGTTTTAACTGGTTTGCTGTTCGTCCTCCTTTGTGTCGACCAC : 11712717
+
+       19 : MetThrAlaSerGlnSer  >>>> Target Intron 1 >>>>  ValValA :       27
+            |||!:!:!!:!!.!.!.!            180 bp           |||||||
+            MetSerSerAlaAsnLys++                         --ValValA
+ 11712718 : ATGAGTTCAGCCAACAAGgt.........................ccGTGGTGG : 11712924
+
+       28 : laThrGlnLeuIleProIleAsnThrAlaLeuThrProValMetMetGluGlyL :       45
+            ||!.!||||||||||||||||||||||||||||||! !:!!||||||:!!!.!:
+            laAsnGlnLeuIleProIleAsnThrAlaLeuThrLeuIleMetMetLysAlaG
+ 11712925 : CCAACCAGCTGATCCCCATAAATACTGCCCTGACTCTGATAATGATGAAGGCGG : 11712978
+
+       46 : ysValThrAsnProIleGlyIleProPheAlaGluMetSerGlnIleValGlyL :       63
+            !!|||..!!.!|||!!:|||||||||  !! !!!:!!: !!!:!|||:!!|||!
+            luValValThrProMetGlyIleProAlaGluAspIleProArgIleIleGlyM
+ 11712979 : AGGTGGTCACCCCAATGGGCATCCCCGCCGAGGACATTCCCCGAATAATCGGAA : 11713032
+
+       64 : ysGlnValAsnThrProValAlaLysGlyGlnThrLeuMetProAsnMetValL :       81
+             !|||||||||! ! !!||| !!  !|||  !||||||||||||:!!|||||||
+            etGlnValAsnArgAlaValProLeuGlyThrThrLeuMetProAspMetValL
+ 11713033 : TGCAAGTGAACAGGGCAGTGCCGTTGGGCACAACCCTCATGCCAGACATGGTGA : 11713086
+
+       82 : ysThrTyr :       83
+            ||!.!|||
+            ysAsnTyr
+ 11713087 : AAAACTAT : 11713094
+
+vulgar: Mamericanus_AFP_protein 0 83 . ptg000084l 11712665 11713094 + 242 M 24 72 5 0 2 I 0 176 3 0 2 M 59 177
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:protein2genome:local 2.4.0
+##date 2024-11-18
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+ptg000084l	exonerate:protein2genome:local	gene	11712666	11713094	242	+	.	gene_id 18 ; sequence Mamericanus_AFP_protein ; gene_orientation + ; identity 63.86 ; similarity 79.52
+ptg000084l	exonerate:protein2genome:local	cds	11712666	11712737	.	+	.	
+ptg000084l	exonerate:protein2genome:local	exon	11712666	11712737	.	+	.	insertions 0 ; deletions 0 ; identity 76.00 ; similarity 92.00
+ptg000084l	exonerate:protein2genome:local	splice5	11712738	11712739	.	+	.	intron_id 1 ; splice_site "GT"
+ptg000084l	exonerate:protein2genome:local	intron	11712738	11712917	.	+	.	intron_id 1
+ptg000084l	exonerate:protein2genome:local	splice3	11712916	11712917	.	+	.	intron_id 0 ; splice_site "CC"
+ptg000084l	exonerate:protein2genome:local	cds	11712918	11713094	.	+	.	
+ptg000084l	exonerate:protein2genome:local	exon	11712918	11713094	.	+	.	insertions 0 ; deletions 0 ; identity 59.32 ; similarity 74.58
+ptg000084l	exonerate:protein2genome:local	similarity	11712666	11713094	242	+	.	alignment_id 18 ; Query Mamericanus_AFP_protein ; Align 11712666 1 72 ; Align 11712918 25 177
+# --- END OF GFF DUMP ---
+#
+
+C4 Alignment:
+------------
+         Query: Mamericanus_AFP_protein J03924.1
+        Target: ptg000084l
+         Model: protein2genome:local
+     Raw score: 242
+   Query range: 0 -> 83
+  Target range: 11704364 -> 11704793
+
+        1 : MetLysSerValIleLeuThrGlyLeuLeuPheValLeuLeuCysValAspHis :       18
+            ||||||||||||:!!|||||||||||||||||||||||||||||||||||||||
+            MetLysSerValValLeuThrGlyLeuLeuPheValLeuLeuCysValAspHis
+ 11704365 : ATGAAGTCAGTTGTTTTAACTGGTTTGCTGTTCGTCCTCCTTTGTGTCGACCAC : 11704416
+
+       19 : MetThrAlaSerGlnSer  >>>> Target Intron 1 >>>>  ValValA :       27
+            |||!:!:!!:!!.!.!.!            180 bp           |||||||
+            MetSerSerAlaAsnLys++                         --ValValA
+ 11704417 : ATGAGTTCAGCCAACAAGgt.........................ccGTGGTGG : 11704623
+
+       28 : laThrGlnLeuIleProIleAsnThrAlaLeuThrProValMetMetGluGlyL :       45
+            ||!.!||||||||||||||||||||||||||||||! !:!!||||||:!!!.!:
+            laAsnGlnLeuIleProIleAsnThrAlaLeuThrLeuIleMetMetLysAlaG
+ 11704624 : CCAACCAGCTGATCCCCATAAATACTGCCCTGACTCTGATAATGATGAAGGCGG : 11704677
+
+       46 : ysValThrAsnProIleGlyIleProPheAlaGluMetSerGlnIleValGlyL :       63
+            !!|||..!!.!|||!!:|||||||||  !! !!!:!!: !!!:!|||:!!|||!
+            luValValThrProMetGlyIleProAlaGluAspIleProArgIleIleGlyM
+ 11704678 : AGGTGGTCACCCCAATGGGCATCCCCGCCGAGGACATTCCCCGAATAATCGGAA : 11704731
+
+       64 : ysGlnValAsnThrProValAlaLysGlyGlnThrLeuMetProAsnMetValL :       81
+             !|||||||||! ! !!||| !!  !|||  !||||||||||||:!!|||||||
+            etGlnValAsnArgAlaValProLeuGlyThrThrLeuMetProAspMetValL
+ 11704732 : TGCAAGTGAACAGGGCAGTGCCGTTGGGCACAACCCTCATGCCAGACATGGTGA : 11704785
+
+       82 : ysThrTyr :       83
+            ||!.!|||
+            ysAsnTyr
+ 11704786 : AAAACTAT : 11704793
+
+vulgar: Mamericanus_AFP_protein 0 83 . ptg000084l 11704364 11704793 + 242 M 24 72 5 0 2 I 0 176 3 0 2 M 59 177
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:protein2genome:local 2.4.0
+##date 2024-11-18
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+ptg000084l	exonerate:protein2genome:local	gene	11704365	11704793	242	+	.	gene_id 19 ; sequence Mamericanus_AFP_protein ; gene_orientation + ; identity 63.86 ; similarity 79.52
+ptg000084l	exonerate:protein2genome:local	cds	11704365	11704436	.	+	.	
+ptg000084l	exonerate:protein2genome:local	exon	11704365	11704436	.	+	.	insertions 0 ; deletions 0 ; identity 76.00 ; similarity 92.00
+ptg000084l	exonerate:protein2genome:local	splice5	11704437	11704438	.	+	.	intron_id 1 ; splice_site "GT"
+ptg000084l	exonerate:protein2genome:local	intron	11704437	11704616	.	+	.	intron_id 1
+ptg000084l	exonerate:protein2genome:local	splice3	11704615	11704616	.	+	.	intron_id 0 ; splice_site "CC"
+ptg000084l	exonerate:protein2genome:local	cds	11704617	11704793	.	+	.	
+ptg000084l	exonerate:protein2genome:local	exon	11704617	11704793	.	+	.	insertions 0 ; deletions 0 ; identity 59.32 ; similarity 74.58
+ptg000084l	exonerate:protein2genome:local	similarity	11704365	11704793	242	+	.	alignment_id 19 ; Query Mamericanus_AFP_protein ; Align 11704365 1 72 ; Align 11704617 25 177
+# --- END OF GFF DUMP ---
+#
+
+C4 Alignment:
+------------
+         Query: Mamericanus_AFP_protein J03924.1
+        Target: ptg000084l
+         Model: protein2genome:local
+     Raw score: 242
+   Query range: 0 -> 83
+  Target range: 11520567 -> 11520996
+
+        1 : MetLysSerValIleLeuThrGlyLeuLeuPheValLeuLeuCysValAspHis :       18
+            ||||||||||||:!!|||||||||||||||||||||||||||||||||||||||
+            MetLysSerValValLeuThrGlyLeuLeuPheValLeuLeuCysValAspHis
+ 11520568 : ATGAAGTCAGTTGTTTTAACTGGTTTGCTGTTCGTCCTCCTTTGTGTCGACCAC : 11520619
+
+       19 : MetThrAlaSerGlnSer  >>>> Target Intron 1 >>>>  ValValA :       27
+            |||!:!:!!:!!.!.!.!            180 bp           |||||||
+            MetSerSerAlaAsnLys++                         --ValValA
+ 11520620 : ATGAGTTCAGCCAACAAGgt.........................ccGTGGTGG : 11520826
+
+       28 : laThrGlnLeuIleProIleAsnThrAlaLeuThrProValMetMetGluGlyL :       45
+            ||!.!||||||||||||||||||||||||||||||! !:!!||||||:!!!.!:
+            laAsnGlnLeuIleProIleAsnThrAlaLeuThrLeuIleMetMetLysAlaG
+ 11520827 : CCAACCAGCTGATCCCCATAAATACTGCCCTGACTCTGATAATGATGAAGGCGG : 11520880
+
+       46 : ysValThrAsnProIleGlyIleProPheAlaGluMetSerGlnIleValGlyL :       63
+            !!|||..!!.!|||!!:|||||||||  !! !!!:!!: !!!:!|||:!!|||!
+            luValValThrProMetGlyIleProAlaGluAspIleProArgIleIleGlyM
+ 11520881 : AGGTGGTCACCCCAATGGGCATCCCCGCCGAGGACATTCCCCGAATAATCGGAA : 11520934
+
+       64 : ysGlnValAsnThrProValAlaLysGlyGlnThrLeuMetProAsnMetValL :       81
+             !|||||||||! ! !!||| !!  !|||  !||||||||||||:!!|||||||
+            etGlnValAsnArgAlaValProLeuGlyThrThrLeuMetProAspMetValL
+ 11520935 : TGCAAGTGAACAGGGCAGTGCCGTTGGGCACAACCCTCATGCCAGACATGGTGA : 11520988
+
+       82 : ysThrTyr :       83
+            ||!.!|||
+            ysAsnTyr
+ 11520989 : AAAACTAT : 11520996
+
+vulgar: Mamericanus_AFP_protein 0 83 . ptg000084l 11520567 11520996 + 242 M 24 72 5 0 2 I 0 176 3 0 2 M 59 177
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:protein2genome:local 2.4.0
+##date 2024-11-18
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+ptg000084l	exonerate:protein2genome:local	gene	11520568	11520996	242	+	.	gene_id 20 ; sequence Mamericanus_AFP_protein ; gene_orientation + ; identity 63.86 ; similarity 79.52
+ptg000084l	exonerate:protein2genome:local	cds	11520568	11520639	.	+	.	
+ptg000084l	exonerate:protein2genome:local	exon	11520568	11520639	.	+	.	insertions 0 ; deletions 0 ; identity 76.00 ; similarity 92.00
+ptg000084l	exonerate:protein2genome:local	splice5	11520640	11520641	.	+	.	intron_id 1 ; splice_site "GT"
+ptg000084l	exonerate:protein2genome:local	intron	11520640	11520819	.	+	.	intron_id 1
+ptg000084l	exonerate:protein2genome:local	splice3	11520818	11520819	.	+	.	intron_id 0 ; splice_site "CC"
+ptg000084l	exonerate:protein2genome:local	cds	11520820	11520996	.	+	.	
+ptg000084l	exonerate:protein2genome:local	exon	11520820	11520996	.	+	.	insertions 0 ; deletions 0 ; identity 59.32 ; similarity 74.58
+ptg000084l	exonerate:protein2genome:local	similarity	11520568	11520996	242	+	.	alignment_id 20 ; Query Mamericanus_AFP_protein ; Align 11520568 1 72 ; Align 11520820 25 177
+# --- END OF GFF DUMP ---
+#
+
+C4 Alignment:
+------------
+         Query: Mamericanus_AFP_protein J03924.1
+        Target: ptg000084l
+         Model: protein2genome:local
+     Raw score: 242
+   Query range: 0 -> 83
+  Target range: 11498308 -> 11498737
+
+        1 : MetLysSerValIleLeuThrGlyLeuLeuPheValLeuLeuCysValAspHis :       18
+            ||||||||||||:!!|||||||||||||||||||||||||||||||||||||||
+            MetLysSerValValLeuThrGlyLeuLeuPheValLeuLeuCysValAspHis
+ 11498309 : ATGAAGTCAGTTGTTTTAACTGGTTTGCTGTTCGTCCTCCTTTGTGTCGACCAC : 11498360
+
+       19 : MetThrAlaSerGlnSer  >>>> Target Intron 1 >>>>  ValValA :       27
+            |||!:!:!!:!!.!.!.!            180 bp           |||||||
+            MetSerSerAlaAsnLys++                         --ValValA
+ 11498361 : ATGAGTTCAGCCAACAAGgt.........................ccGTGGTGG : 11498567
+
+       28 : laThrGlnLeuIleProIleAsnThrAlaLeuThrProValMetMetGluGlyL :       45
+            ||!.!||||||||||||||||||||||||||||||! !:!!||||||:!!!.!:
+            laAsnGlnLeuIleProIleAsnThrAlaLeuThrLeuIleMetMetLysAlaG
+ 11498568 : CCAACCAGCTGATCCCCATAAATACTGCCCTGACTCTGATAATGATGAAGGCGG : 11498621
+
+       46 : ysValThrAsnProIleGlyIleProPheAlaGluMetSerGlnIleValGlyL :       63
+            !!|||..!!.!|||!!:|||||||||  !! !!!:!!: !!!:!|||:!!|||!
+            luValValThrProMetGlyIleProAlaGluAspIleProArgIleIleGlyM
+ 11498622 : AGGTGGTCACCCCAATGGGCATCCCCGCCGAGGACATTCCCCGAATAATCGGAA : 11498675
+
+       64 : ysGlnValAsnThrProValAlaLysGlyGlnThrLeuMetProAsnMetValL :       81
+             !|||||||||! ! !!||| !!  !|||  !||||||||||||:!!|||||||
+            etGlnValAsnArgAlaValProLeuGlyThrThrLeuMetProAspMetValL
+ 11498676 : TGCAAGTGAACAGGGCAGTGCCGTTGGGCACAACCCTCATGCCAGACATGGTGA : 11498729
+
+       82 : ysThrTyr :       83
+            ||!.!|||
+            ysAsnTyr
+ 11498730 : AAAACTAT : 11498737
+
+vulgar: Mamericanus_AFP_protein 0 83 . ptg000084l 11498308 11498737 + 242 M 24 72 5 0 2 I 0 176 3 0 2 M 59 177
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:protein2genome:local 2.4.0
+##date 2024-11-18
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+ptg000084l	exonerate:protein2genome:local	gene	11498309	11498737	242	+	.	gene_id 21 ; sequence Mamericanus_AFP_protein ; gene_orientation + ; identity 63.86 ; similarity 79.52
+ptg000084l	exonerate:protein2genome:local	cds	11498309	11498380	.	+	.	
+ptg000084l	exonerate:protein2genome:local	exon	11498309	11498380	.	+	.	insertions 0 ; deletions 0 ; identity 76.00 ; similarity 92.00
+ptg000084l	exonerate:protein2genome:local	splice5	11498381	11498382	.	+	.	intron_id 1 ; splice_site "GT"
+ptg000084l	exonerate:protein2genome:local	intron	11498381	11498560	.	+	.	intron_id 1
+ptg000084l	exonerate:protein2genome:local	splice3	11498559	11498560	.	+	.	intron_id 0 ; splice_site "CC"
+ptg000084l	exonerate:protein2genome:local	cds	11498561	11498737	.	+	.	
+ptg000084l	exonerate:protein2genome:local	exon	11498561	11498737	.	+	.	insertions 0 ; deletions 0 ; identity 59.32 ; similarity 74.58
+ptg000084l	exonerate:protein2genome:local	similarity	11498309	11498737	242	+	.	alignment_id 21 ; Query Mamericanus_AFP_protein ; Align 11498309 1 72 ; Align 11498561 25 177
+# --- END OF GFF DUMP ---
+#
+
+C4 Alignment:
+------------
+         Query: Mamericanus_AFP_protein J03924.1
+        Target: ptg000084l
+         Model: protein2genome:local
+     Raw score: 242
+   Query range: 0 -> 83
+  Target range: 11831295 -> 11831724
+
+        1 : MetLysSerValIleLeuThrGlyLeuLeuPheValLeuLeuCysValAspHis :       18
+            ||||||||||||:!!|||||||||||||||||||||||||||||||||||||||
+            MetLysSerValValLeuThrGlyLeuLeuPheValLeuLeuCysValAspHis
+ 11831296 : ATGAAGTCAGTTGTTTTAACTGGTTTGCTGTTCGTCCTCCTTTGTGTCGACCAC : 11831347
+
+       19 : MetThrAlaSerGlnSer  >>>> Target Intron 1 >>>>  ValValA :       27
+            |||!:!:!!:!!.!.!.!            180 bp           |||||||
+            MetSerSerAlaAsnLys++                         --ValValA
+ 11831348 : ATGAGTTCAGCCAACAAGgt.........................ccGTGGTGG : 11831554
+
+       28 : laThrGlnLeuIleProIleAsnThrAlaLeuThrProValMetMetGluGlyL :       45
+            ||!.!||||||||||||||||||||||||||||||! !:!!||||||:!!!.!:
+            laAsnGlnLeuIleProIleAsnThrAlaLeuThrLeuIleMetMetLysAlaG
+ 11831555 : CCAACCAGCTGATCCCCATAAATACTGCCCTGACTCTGATAATGATGAAGGCGG : 11831608
+
+       46 : ysValThrAsnProIleGlyIleProPheAlaGluMetSerGlnIleValGlyL :       63
+            !!|||..!!.!|||!!:|||||||||  !! !!!:!!: !!!:!|||:!!|||!
+            luValValThrProMetGlyIleProAlaGluAspIleProArgIleIleGlyM
+ 11831609 : AGGTGGTCACCCCAATGGGCATCCCCGCCGAGGACATTCCCCGAATAATCGGAA : 11831662
+
+       64 : ysGlnValAsnThrProValAlaLysGlyGlnThrLeuMetProAsnMetValL :       81
+             !|||||||||! ! !!||| !!  !|||  !||||||||||||:!!|||||||
+            etGlnValAsnArgAlaValProLeuGlyThrThrLeuMetProAspMetValL
+ 11831663 : TGCAAGTGAACAGGGCAGTGCCGTTGGGCACAACCCTCATGCCAGACATGGTGA : 11831716
+
+       82 : ysThrTyr :       83
+            ||!.!|||
+            ysAsnTyr
+ 11831717 : AAAACTAT : 11831724
+
+vulgar: Mamericanus_AFP_protein 0 83 . ptg000084l 11831295 11831724 + 242 M 24 72 5 0 2 I 0 176 3 0 2 M 59 177
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:protein2genome:local 2.4.0
+##date 2024-11-18
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+ptg000084l	exonerate:protein2genome:local	gene	11831296	11831724	242	+	.	gene_id 22 ; sequence Mamericanus_AFP_protein ; gene_orientation + ; identity 63.86 ; similarity 79.52
+ptg000084l	exonerate:protein2genome:local	cds	11831296	11831367	.	+	.	
+ptg000084l	exonerate:protein2genome:local	exon	11831296	11831367	.	+	.	insertions 0 ; deletions 0 ; identity 76.00 ; similarity 92.00
+ptg000084l	exonerate:protein2genome:local	splice5	11831368	11831369	.	+	.	intron_id 1 ; splice_site "GT"
+ptg000084l	exonerate:protein2genome:local	intron	11831368	11831547	.	+	.	intron_id 1
+ptg000084l	exonerate:protein2genome:local	splice3	11831546	11831547	.	+	.	intron_id 0 ; splice_site "CC"
+ptg000084l	exonerate:protein2genome:local	cds	11831548	11831724	.	+	.	
+ptg000084l	exonerate:protein2genome:local	exon	11831548	11831724	.	+	.	insertions 0 ; deletions 0 ; identity 59.32 ; similarity 74.58
+ptg000084l	exonerate:protein2genome:local	similarity	11831296	11831724	242	+	.	alignment_id 22 ; Query Mamericanus_AFP_protein ; Align 11831296 1 72 ; Align 11831548 25 177
+# --- END OF GFF DUMP ---
+#
+
+C4 Alignment:
+------------
+         Query: Mamericanus_AFP_protein J03924.1
+        Target: ptg000084l
+         Model: protein2genome:local
+     Raw score: 242
+   Query range: 0 -> 83
+  Target range: 11366873 -> 11367302
+
+        1 : MetLysSerValIleLeuThrGlyLeuLeuPheValLeuLeuCysValAspHis :       18
+            ||||||||||||:!!|||||||||||||||||||||||||||||||||||||||
+            MetLysSerValValLeuThrGlyLeuLeuPheValLeuLeuCysValAspHis
+ 11366874 : ATGAAGTCAGTTGTTTTAACTGGTTTGCTGTTCGTCCTCCTTTGTGTCGACCAC : 11366925
+
+       19 : MetThrAlaSerGlnSer  >>>> Target Intron 1 >>>>  ValValA :       27
+            |||!:!:!!:!!.!.!.!            180 bp           |||||||
+            MetSerSerAlaAsnLys++                         --ValValA
+ 11366926 : ATGAGTTCAGCCAACAAGgt.........................ccGTGGTGG : 11367132
+
+       28 : laThrGlnLeuIleProIleAsnThrAlaLeuThrProValMetMetGluGlyL :       45
+            ||!.!||||||||||||||||||||||||||||||! !:!!||||||:!!!.!:
+            laAsnGlnLeuIleProIleAsnThrAlaLeuThrLeuIleMetMetLysAlaG
+ 11367133 : CCAACCAGCTGATCCCCATAAATACTGCCCTGACTCTGATAATGATGAAGGCGG : 11367186
+
+       46 : ysValThrAsnProIleGlyIleProPheAlaGluMetSerGlnIleValGlyL :       63
+            !!|||..!!.!|||!!:|||||||||  !! !!!:!!: !!!:!|||:!!|||!
+            luValValThrProMetGlyIleProAlaGluAspIleProArgIleIleGlyM
+ 11367187 : AGGTGGTCACCCCAATGGGCATCCCCGCCGAGGACATTCCCCGAATAATCGGAA : 11367240
+
+       64 : ysGlnValAsnThrProValAlaLysGlyGlnThrLeuMetProAsnMetValL :       81
+             !|||||||||! ! !!||| !!  !|||  !||||||||||||:!!|||||||
+            etGlnValAsnArgAlaValProLeuGlyThrThrLeuMetProAspMetValL
+ 11367241 : TGCAAGTGAACAGGGCAGTGCCGTTGGGCACAACCCTCATGCCAGACATGGTGA : 11367294
+
+       82 : ysThrTyr :       83
+            ||!.!|||
+            ysAsnTyr
+ 11367295 : AAAACTAT : 11367302
+
+vulgar: Mamericanus_AFP_protein 0 83 . ptg000084l 11366873 11367302 + 242 M 24 72 5 0 2 I 0 176 3 0 2 M 59 177
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:protein2genome:local 2.4.0
+##date 2024-11-18
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+ptg000084l	exonerate:protein2genome:local	gene	11366874	11367302	242	+	.	gene_id 23 ; sequence Mamericanus_AFP_protein ; gene_orientation + ; identity 63.86 ; similarity 79.52
+ptg000084l	exonerate:protein2genome:local	cds	11366874	11366945	.	+	.	
+ptg000084l	exonerate:protein2genome:local	exon	11366874	11366945	.	+	.	insertions 0 ; deletions 0 ; identity 76.00 ; similarity 92.00
+ptg000084l	exonerate:protein2genome:local	splice5	11366946	11366947	.	+	.	intron_id 1 ; splice_site "GT"
+ptg000084l	exonerate:protein2genome:local	intron	11366946	11367125	.	+	.	intron_id 1
+ptg000084l	exonerate:protein2genome:local	splice3	11367124	11367125	.	+	.	intron_id 0 ; splice_site "CC"
+ptg000084l	exonerate:protein2genome:local	cds	11367126	11367302	.	+	.	
+ptg000084l	exonerate:protein2genome:local	exon	11367126	11367302	.	+	.	insertions 0 ; deletions 0 ; identity 59.32 ; similarity 74.58
+ptg000084l	exonerate:protein2genome:local	similarity	11366874	11367302	242	+	.	alignment_id 23 ; Query Mamericanus_AFP_protein ; Align 11366874 1 72 ; Align 11367126 25 177
+# --- END OF GFF DUMP ---
+#
+
+C4 Alignment:
+------------
+         Query: Mamericanus_AFP_protein J03924.1
+        Target: ptg000084l
+         Model: protein2genome:local
+     Raw score: 242
+   Query range: 0 -> 83
+  Target range: 11629268 -> 11629697
+
+        1 : MetLysSerValIleLeuThrGlyLeuLeuPheValLeuLeuCysValAspHis :       18
+            ||||||||||||:!!|||||||||||||||||||||||||||||||||||||||
+            MetLysSerValValLeuThrGlyLeuLeuPheValLeuLeuCysValAspHis
+ 11629269 : ATGAAGTCAGTTGTTTTAACTGGTTTGCTGTTCGTCCTCCTTTGTGTCGACCAC : 11629320
+
+       19 : MetThrAlaSerGlnSer  >>>> Target Intron 1 >>>>  ValValA :       27
+            |||!:!:!!:!!.!.!.!            180 bp           |||||||
+            MetSerSerAlaAsnLys++                         --ValValA
+ 11629321 : ATGAGTTCAGCCAACAAGgt.........................ccGTGGTGG : 11629527
+
+       28 : laThrGlnLeuIleProIleAsnThrAlaLeuThrProValMetMetGluGlyL :       45
+            ||!.!||||||||||||||||||||||||||||||! !:!!||||||:!!!.!:
+            laAsnGlnLeuIleProIleAsnThrAlaLeuThrLeuIleMetMetLysAlaG
+ 11629528 : CCAACCAGCTGATCCCCATAAATACTGCCCTGACTCTGATAATGATGAAGGCGG : 11629581
+
+       46 : ysValThrAsnProIleGlyIleProPheAlaGluMetSerGlnIleValGlyL :       63
+            !!|||..!!.!|||!!:|||||||||  !! !!!:!!: !!!:!|||:!!|||!
+            luValValThrProMetGlyIleProAlaGluAspIleProArgIleIleGlyM
+ 11629582 : AGGTGGTCACCCCAATGGGCATCCCCGCCGAGGACATTCCCCGAATAATCGGAA : 11629635
+
+       64 : ysGlnValAsnThrProValAlaLysGlyGlnThrLeuMetProAsnMetValL :       81
+             !|||||||||! ! !!||| !!  !|||  !||||||||||||:!!|||||||
+            etGlnValAsnArgAlaValProLeuGlyThrThrLeuMetProAspMetValL
+ 11629636 : TGCAAGTGAACAGGGCAGTGCCGTTGGGCACAACCCTCATGCCAGACATGGTGA : 11629689
+
+       82 : ysThrTyr :       83
+            ||!.!|||
+            ysAsnTyr
+ 11629690 : AAAACTAT : 11629697
+
+vulgar: Mamericanus_AFP_protein 0 83 . ptg000084l 11629268 11629697 + 242 M 24 72 5 0 2 I 0 176 3 0 2 M 59 177
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:protein2genome:local 2.4.0
+##date 2024-11-18
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+ptg000084l	exonerate:protein2genome:local	gene	11629269	11629697	242	+	.	gene_id 24 ; sequence Mamericanus_AFP_protein ; gene_orientation + ; identity 63.86 ; similarity 79.52
+ptg000084l	exonerate:protein2genome:local	cds	11629269	11629340	.	+	.	
+ptg000084l	exonerate:protein2genome:local	exon	11629269	11629340	.	+	.	insertions 0 ; deletions 0 ; identity 76.00 ; similarity 92.00
+ptg000084l	exonerate:protein2genome:local	splice5	11629341	11629342	.	+	.	intron_id 1 ; splice_site "GT"
+ptg000084l	exonerate:protein2genome:local	intron	11629341	11629520	.	+	.	intron_id 1
+ptg000084l	exonerate:protein2genome:local	splice3	11629519	11629520	.	+	.	intron_id 0 ; splice_site "CC"
+ptg000084l	exonerate:protein2genome:local	cds	11629521	11629697	.	+	.	
+ptg000084l	exonerate:protein2genome:local	exon	11629521	11629697	.	+	.	insertions 0 ; deletions 0 ; identity 59.32 ; similarity 74.58
+ptg000084l	exonerate:protein2genome:local	similarity	11629269	11629697	242	+	.	alignment_id 24 ; Query Mamericanus_AFP_protein ; Align 11629269 1 72 ; Align 11629521 25 177
+# --- END OF GFF DUMP ---
+#
+
+C4 Alignment:
+------------
+         Query: Mamericanus_AFP_protein J03924.1
+        Target: ptg000084l
+         Model: protein2genome:local
+     Raw score: 242
+   Query range: 0 -> 83
+  Target range: 11822957 -> 11823386
+
+        1 : MetLysSerValIleLeuThrGlyLeuLeuPheValLeuLeuCysValAspHis :       18
+            ||||||||||||:!!|||||||||||||||||||||||||||||||||||||||
+            MetLysSerValValLeuThrGlyLeuLeuPheValLeuLeuCysValAspHis
+ 11822958 : ATGAAGTCAGTTGTTTTAACTGGTTTGCTGTTCGTCCTCCTTTGTGTCGACCAC : 11823009
+
+       19 : MetThrAlaSerGlnSer  >>>> Target Intron 1 >>>>  ValValA :       27
+            |||!:!:!!:!!.!.!.!            180 bp           |||||||
+            MetSerSerAlaAsnLys++                         --ValValA
+ 11823010 : ATGAGTTCAGCCAACAAGgt.........................ccGTGGTGG : 11823216
+
+       28 : laThrGlnLeuIleProIleAsnThrAlaLeuThrProValMetMetGluGlyL :       45
+            ||!.!||||||||||||||||||||||||||||||! !:!!||||||:!!!.!:
+            laAsnGlnLeuIleProIleAsnThrAlaLeuThrLeuIleMetMetLysAlaG
+ 11823217 : CCAACCAGCTGATCCCCATAAATACTGCCCTGACTCTGATAATGATGAAGGCGG : 11823270
+
+       46 : ysValThrAsnProIleGlyIleProPheAlaGluMetSerGlnIleValGlyL :       63
+            !!|||..!!.!|||!!:|||||||||  !! !!!:!!: !!!:!|||:!!|||!
+            luValValThrProMetGlyIleProAlaGluAspIleProArgIleIleGlyM
+ 11823271 : AGGTGGTCACCCCAATGGGCATCCCCGCCGAGGACATTCCCCGAATAATCGGAA : 11823324
+
+       64 : ysGlnValAsnThrProValAlaLysGlyGlnThrLeuMetProAsnMetValL :       81
+             !|||||||||! ! !!||| !!  !|||  !||||||||||||:!!|||||||
+            etGlnValAsnArgAlaValProLeuGlyThrThrLeuMetProAspMetValL
+ 11823325 : TGCAAGTGAACAGGGCAGTGCCGTTGGGCACAACCCTCATGCCAGACATGGTGA : 11823378
+
+       82 : ysThrTyr :       83
+            ||!.!|||
+            ysAsnTyr
+ 11823379 : AAAACTAT : 11823386
+
+vulgar: Mamericanus_AFP_protein 0 83 . ptg000084l 11822957 11823386 + 242 M 24 72 5 0 2 I 0 176 3 0 2 M 59 177
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:protein2genome:local 2.4.0
+##date 2024-11-18
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+ptg000084l	exonerate:protein2genome:local	gene	11822958	11823386	242	+	.	gene_id 25 ; sequence Mamericanus_AFP_protein ; gene_orientation + ; identity 63.86 ; similarity 79.52
+ptg000084l	exonerate:protein2genome:local	cds	11822958	11823029	.	+	.	
+ptg000084l	exonerate:protein2genome:local	exon	11822958	11823029	.	+	.	insertions 0 ; deletions 0 ; identity 76.00 ; similarity 92.00
+ptg000084l	exonerate:protein2genome:local	splice5	11823030	11823031	.	+	.	intron_id 1 ; splice_site "GT"
+ptg000084l	exonerate:protein2genome:local	intron	11823030	11823209	.	+	.	intron_id 1
+ptg000084l	exonerate:protein2genome:local	splice3	11823208	11823209	.	+	.	intron_id 0 ; splice_site "CC"
+ptg000084l	exonerate:protein2genome:local	cds	11823210	11823386	.	+	.	
+ptg000084l	exonerate:protein2genome:local	exon	11823210	11823386	.	+	.	insertions 0 ; deletions 0 ; identity 59.32 ; similarity 74.58
+ptg000084l	exonerate:protein2genome:local	similarity	11822958	11823386	242	+	.	alignment_id 25 ; Query Mamericanus_AFP_protein ; Align 11822958 1 72 ; Align 11823210 25 177
+# --- END OF GFF DUMP ---
+#
+
+C4 Alignment:
+------------
+         Query: Mamericanus_AFP_protein J03924.1
+        Target: ptg000084l
+         Model: protein2genome:local
+     Raw score: 242
+   Query range: 0 -> 83
+  Target range: 11531010 -> 11531439
+
+        1 : MetLysSerValIleLeuThrGlyLeuLeuPheValLeuLeuCysValAspHis :       18
+            ||||||||||||:!!|||||||||||||||||||||||||||||||||||||||
+            MetLysSerValValLeuThrGlyLeuLeuPheValLeuLeuCysValAspHis
+ 11531011 : ATGAAGTCAGTTGTTTTAACTGGTTTGCTGTTCGTCCTCCTTTGTGTCGACCAC : 11531062
+
+       19 : MetThrAlaSerGlnSer  >>>> Target Intron 1 >>>>  ValValA :       27
+            |||!:!:!!:!!.!.!.!            180 bp           |||||||
+            MetSerSerAlaAsnLys++                         --ValValA
+ 11531063 : ATGAGTTCAGCCAACAAGgt.........................ccGTGGTGG : 11531269
+
+       28 : laThrGlnLeuIleProIleAsnThrAlaLeuThrProValMetMetGluGlyL :       45
+            ||!.!||||||||||||||||||||||||||||||! !:!!||||||:!!!.!:
+            laAsnGlnLeuIleProIleAsnThrAlaLeuThrLeuIleMetMetLysAlaG
+ 11531270 : CCAACCAGCTGATCCCCATAAATACTGCCCTGACTCTGATAATGATGAAGGCGG : 11531323
+
+       46 : ysValThrAsnProIleGlyIleProPheAlaGluMetSerGlnIleValGlyL :       63
+            !!|||..!!.!|||!!:|||||||||  !! !!!:!!: !!!:!|||:!!|||!
+            luValValThrProMetGlyIleProAlaGluAspIleProArgIleIleGlyM
+ 11531324 : AGGTGGTCACCCCAATGGGCATCCCCGCCGAGGACATTCCCCGAATAATCGGAA : 11531377
+
+       64 : ysGlnValAsnThrProValAlaLysGlyGlnThrLeuMetProAsnMetValL :       81
+             !|||||||||! ! !!||| !!  !|||  !||||||||||||:!!|||||||
+            etGlnValAsnArgAlaValProLeuGlyThrThrLeuMetProAspMetValL
+ 11531378 : TGCAAGTGAACAGGGCAGTGCCGTTGGGCACAACCCTCATGCCAGACATGGTGA : 11531431
+
+       82 : ysThrTyr :       83
+            ||!.!|||
+            ysAsnTyr
+ 11531432 : AAAACTAT : 11531439
+
+vulgar: Mamericanus_AFP_protein 0 83 . ptg000084l 11531010 11531439 + 242 M 24 72 5 0 2 I 0 176 3 0 2 M 59 177
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:protein2genome:local 2.4.0
+##date 2024-11-18
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+ptg000084l	exonerate:protein2genome:local	gene	11531011	11531439	242	+	.	gene_id 26 ; sequence Mamericanus_AFP_protein ; gene_orientation + ; identity 63.86 ; similarity 79.52
+ptg000084l	exonerate:protein2genome:local	cds	11531011	11531082	.	+	.	
+ptg000084l	exonerate:protein2genome:local	exon	11531011	11531082	.	+	.	insertions 0 ; deletions 0 ; identity 76.00 ; similarity 92.00
+ptg000084l	exonerate:protein2genome:local	splice5	11531083	11531084	.	+	.	intron_id 1 ; splice_site "GT"
+ptg000084l	exonerate:protein2genome:local	intron	11531083	11531262	.	+	.	intron_id 1
+ptg000084l	exonerate:protein2genome:local	splice3	11531261	11531262	.	+	.	intron_id 0 ; splice_site "CC"
+ptg000084l	exonerate:protein2genome:local	cds	11531263	11531439	.	+	.	
+ptg000084l	exonerate:protein2genome:local	exon	11531263	11531439	.	+	.	insertions 0 ; deletions 0 ; identity 59.32 ; similarity 74.58
+ptg000084l	exonerate:protein2genome:local	similarity	11531011	11531439	242	+	.	alignment_id 26 ; Query Mamericanus_AFP_protein ; Align 11531011 1 72 ; Align 11531263 25 177
+# --- END OF GFF DUMP ---
+#
+
+C4 Alignment:
+------------
+         Query: Mamericanus_AFP_protein J03924.1
+        Target: ptg000084l
+         Model: protein2genome:local
+     Raw score: 242
+   Query range: 0 -> 83
+  Target range: 11487860 -> 11488289
+
+        1 : MetLysSerValIleLeuThrGlyLeuLeuPheValLeuLeuCysValAspHis :       18
+            ||||||||||||:!!|||||||||||||||||||||||||||||||||||||||
+            MetLysSerValValLeuThrGlyLeuLeuPheValLeuLeuCysValAspHis
+ 11487861 : ATGAAGTCAGTTGTTTTAACTGGTTTGCTGTTCGTCCTCCTTTGTGTCGACCAC : 11487912
+
+       19 : MetThrAlaSerGlnSer  >>>> Target Intron 1 >>>>  ValValA :       27
+            |||!:!:!!:!!.!.!.!            180 bp           |||||||
+            MetSerSerAlaAsnLys++                         --ValValA
+ 11487913 : ATGAGTTCAGCCAACAAGgt.........................ccGTGGTGG : 11488119
+
+       28 : laThrGlnLeuIleProIleAsnThrAlaLeuThrProValMetMetGluGlyL :       45
+            ||!.!||||||||||||||||||||||||||||||! !:!!||||||:!!!.!:
+            laAsnGlnLeuIleProIleAsnThrAlaLeuThrLeuIleMetMetLysAlaG
+ 11488120 : CCAACCAGCTGATCCCCATAAATACTGCCCTGACTCTGATAATGATGAAGGCGG : 11488173
+
+       46 : ysValThrAsnProIleGlyIleProPheAlaGluMetSerGlnIleValGlyL :       63
+            !!|||..!!.!|||!!:|||||||||  !! !!!:!!: !!!:!|||:!!|||!
+            luValValThrProMetGlyIleProAlaGluAspIleProArgIleIleGlyM
+ 11488174 : AGGTGGTCACCCCAATGGGCATCCCCGCCGAGGACATTCCCCGAATAATCGGAA : 11488227
+
+       64 : ysGlnValAsnThrProValAlaLysGlyGlnThrLeuMetProAsnMetValL :       81
+             !|||||||||! ! !!||| !!  !|||  !||||||||||||:!!|||||||
+            etGlnValAsnArgAlaValProLeuGlyThrThrLeuMetProAspMetValL
+ 11488228 : TGCAAGTGAACAGGGCAGTGCCGTTGGGCACAACCCTCATGCCAGACATGGTGA : 11488281
+
+       82 : ysThrTyr :       83
+            ||!.!|||
+            ysAsnTyr
+ 11488282 : AAAACTAT : 11488289
+
+vulgar: Mamericanus_AFP_protein 0 83 . ptg000084l 11487860 11488289 + 242 M 24 72 5 0 2 I 0 176 3 0 2 M 59 177
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:protein2genome:local 2.4.0
+##date 2024-11-18
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+ptg000084l	exonerate:protein2genome:local	gene	11487861	11488289	242	+	.	gene_id 27 ; sequence Mamericanus_AFP_protein ; gene_orientation + ; identity 63.86 ; similarity 79.52
+ptg000084l	exonerate:protein2genome:local	cds	11487861	11487932	.	+	.	
+ptg000084l	exonerate:protein2genome:local	exon	11487861	11487932	.	+	.	insertions 0 ; deletions 0 ; identity 76.00 ; similarity 92.00
+ptg000084l	exonerate:protein2genome:local	splice5	11487933	11487934	.	+	.	intron_id 1 ; splice_site "GT"
+ptg000084l	exonerate:protein2genome:local	intron	11487933	11488112	.	+	.	intron_id 1
+ptg000084l	exonerate:protein2genome:local	splice3	11488111	11488112	.	+	.	intron_id 0 ; splice_site "CC"
+ptg000084l	exonerate:protein2genome:local	cds	11488113	11488289	.	+	.	
+ptg000084l	exonerate:protein2genome:local	exon	11488113	11488289	.	+	.	insertions 0 ; deletions 0 ; identity 59.32 ; similarity 74.58
+ptg000084l	exonerate:protein2genome:local	similarity	11487861	11488289	242	+	.	alignment_id 27 ; Query Mamericanus_AFP_protein ; Align 11487861 1 72 ; Align 11488113 25 177
+# --- END OF GFF DUMP ---
+#
+
+C4 Alignment:
+------------
+         Query: Mamericanus_AFP_protein J03924.1
+        Target: ptg000084l
+         Model: protein2genome:local
+     Raw score: 242
+   Query range: 0 -> 83
+  Target range: 11573057 -> 11573486
+
+        1 : MetLysSerValIleLeuThrGlyLeuLeuPheValLeuLeuCysValAspHis :       18
+            ||||||||||||:!!|||||||||||||||||||||||||||||||||||||||
+            MetLysSerValValLeuThrGlyLeuLeuPheValLeuLeuCysValAspHis
+ 11573058 : ATGAAGTCAGTTGTTTTAACTGGTTTGCTGTTCGTCCTCCTTTGTGTCGACCAC : 11573109
+
+       19 : MetThrAlaSerGlnSer  >>>> Target Intron 1 >>>>  ValValA :       27
+            |||!:!:!!:!!.!.!.!            180 bp           |||||||
+            MetSerSerAlaAsnLys++                         --ValValA
+ 11573110 : ATGAGTTCAGCCAACAAGgt.........................ccGTGGTGG : 11573316
+
+       28 : laThrGlnLeuIleProIleAsnThrAlaLeuThrProValMetMetGluGlyL :       45
+            ||!.!||||||||||||||||||||||||||||||! !:!!||||||:!!!.!:
+            laAsnGlnLeuIleProIleAsnThrAlaLeuThrLeuIleMetMetLysAlaG
+ 11573317 : CCAACCAGCTGATCCCCATAAATACTGCCCTGACTCTGATAATGATGAAGGCGG : 11573370
+
+       46 : ysValThrAsnProIleGlyIleProPheAlaGluMetSerGlnIleValGlyL :       63
+            !!|||..!!.!|||!!:|||||||||  !! !!!:!!: !!!:!|||:!!|||!
+            luValValThrProMetGlyIleProAlaGluAspIleProArgIleIleGlyM
+ 11573371 : AGGTGGTCACCCCAATGGGCATCCCCGCCGAGGACATTCCCCGAATAATCGGAA : 11573424
+
+       64 : ysGlnValAsnThrProValAlaLysGlyGlnThrLeuMetProAsnMetValL :       81
+             !|||||||||! ! !!||| !!  !|||  !||||||||||||:!!|||||||
+            etGlnValAsnArgAlaValProLeuGlyThrThrLeuMetProAspMetValL
+ 11573425 : TGCAAGTGAACAGGGCAGTGCCGTTGGGCACAACCCTCATGCCAGACATGGTGA : 11573478
+
+       82 : ysThrTyr :       83
+            ||!.!|||
+            ysAsnTyr
+ 11573479 : AAAACTAT : 11573486
+
+vulgar: Mamericanus_AFP_protein 0 83 . ptg000084l 11573057 11573486 + 242 M 24 72 5 0 2 I 0 176 3 0 2 M 59 177
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:protein2genome:local 2.4.0
+##date 2024-11-18
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+ptg000084l	exonerate:protein2genome:local	gene	11573058	11573486	242	+	.	gene_id 28 ; sequence Mamericanus_AFP_protein ; gene_orientation + ; identity 63.86 ; similarity 79.52
+ptg000084l	exonerate:protein2genome:local	cds	11573058	11573129	.	+	.	
+ptg000084l	exonerate:protein2genome:local	exon	11573058	11573129	.	+	.	insertions 0 ; deletions 0 ; identity 76.00 ; similarity 92.00
+ptg000084l	exonerate:protein2genome:local	splice5	11573130	11573131	.	+	.	intron_id 1 ; splice_site "GT"
+ptg000084l	exonerate:protein2genome:local	intron	11573130	11573309	.	+	.	intron_id 1
+ptg000084l	exonerate:protein2genome:local	splice3	11573308	11573309	.	+	.	intron_id 0 ; splice_site "CC"
+ptg000084l	exonerate:protein2genome:local	cds	11573310	11573486	.	+	.	
+ptg000084l	exonerate:protein2genome:local	exon	11573310	11573486	.	+	.	insertions 0 ; deletions 0 ; identity 59.32 ; similarity 74.58
+ptg000084l	exonerate:protein2genome:local	similarity	11573058	11573486	242	+	.	alignment_id 28 ; Query Mamericanus_AFP_protein ; Align 11573058 1 72 ; Align 11573310 25 177
+# --- END OF GFF DUMP ---
+#
+
+C4 Alignment:
+------------
+         Query: Mamericanus_AFP_protein J03924.1
+        Target: ptg000084l
+         Model: protein2genome:local
+     Raw score: 242
+   Query range: 0 -> 83
+  Target range: 11375196 -> 11375625
+
+        1 : MetLysSerValIleLeuThrGlyLeuLeuPheValLeuLeuCysValAspHis :       18
+            ||||||||||||:!!|||||||||||||||||||||||||||||||||||||||
+            MetLysSerValValLeuThrGlyLeuLeuPheValLeuLeuCysValAspHis
+ 11375197 : ATGAAGTCAGTTGTTTTAACTGGTTTGCTGTTCGTCCTCCTTTGTGTCGACCAC : 11375248
+
+       19 : MetThrAlaSerGlnSer  >>>> Target Intron 1 >>>>  ValValA :       27
+            |||!:!:!!:!!.!.!.!            180 bp           |||||||
+            MetSerSerAlaAsnLys++                         --ValValA
+ 11375249 : ATGAGTTCAGCCAACAAGgt.........................ccGTGGTGG : 11375455
+
+       28 : laThrGlnLeuIleProIleAsnThrAlaLeuThrProValMetMetGluGlyL :       45
+            ||!.!||||||||||||||||||||||||||||||! !:!!||||||:!!!.!:
+            laAsnGlnLeuIleProIleAsnThrAlaLeuThrLeuIleMetMetLysAlaG
+ 11375456 : CCAACCAGCTGATCCCCATAAATACTGCCCTGACTCTGATAATGATGAAGGCGG : 11375509
+
+       46 : ysValThrAsnProIleGlyIleProPheAlaGluMetSerGlnIleValGlyL :       63
+            !!|||..!!.!|||!!:|||||||||  !! !!!:!!: !!!:!|||:!!|||!
+            luValValThrProMetGlyIleProAlaGluAspIleProArgIleIleGlyM
+ 11375510 : AGGTGGTCACCCCAATGGGCATCCCCGCCGAGGACATTCCCCGAATAATCGGAA : 11375563
+
+       64 : ysGlnValAsnThrProValAlaLysGlyGlnThrLeuMetProAsnMetValL :       81
+             !|||||||||! ! !!||| !!  !|||  !||||||||||||:!!|||||||
+            etGlnValAsnArgAlaValProLeuGlyThrThrLeuMetProAspMetValL
+ 11375564 : TGCAAGTGAACAGGGCAGTGCCGTTGGGCACAACCCTCATGCCAGACATGGTGA : 11375617
+
+       82 : ysThrTyr :       83
+            ||!.!|||
+            ysAsnTyr
+ 11375618 : AAAACTAT : 11375625
+
+vulgar: Mamericanus_AFP_protein 0 83 . ptg000084l 11375196 11375625 + 242 M 24 72 5 0 2 I 0 176 3 0 2 M 59 177
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:protein2genome:local 2.4.0
+##date 2024-11-18
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+ptg000084l	exonerate:protein2genome:local	gene	11375197	11375625	242	+	.	gene_id 29 ; sequence Mamericanus_AFP_protein ; gene_orientation + ; identity 63.86 ; similarity 79.52
+ptg000084l	exonerate:protein2genome:local	cds	11375197	11375268	.	+	.	
+ptg000084l	exonerate:protein2genome:local	exon	11375197	11375268	.	+	.	insertions 0 ; deletions 0 ; identity 76.00 ; similarity 92.00
+ptg000084l	exonerate:protein2genome:local	splice5	11375269	11375270	.	+	.	intron_id 1 ; splice_site "GT"
+ptg000084l	exonerate:protein2genome:local	intron	11375269	11375448	.	+	.	intron_id 1
+ptg000084l	exonerate:protein2genome:local	splice3	11375447	11375448	.	+	.	intron_id 0 ; splice_site "CC"
+ptg000084l	exonerate:protein2genome:local	cds	11375449	11375625	.	+	.	
+ptg000084l	exonerate:protein2genome:local	exon	11375449	11375625	.	+	.	insertions 0 ; deletions 0 ; identity 59.32 ; similarity 74.58
+ptg000084l	exonerate:protein2genome:local	similarity	11375197	11375625	242	+	.	alignment_id 29 ; Query Mamericanus_AFP_protein ; Align 11375197 1 72 ; Align 11375449 25 177
+# --- END OF GFF DUMP ---
+#
+
+C4 Alignment:
+------------
+         Query: Mamericanus_AFP_protein J03924.1
+        Target: ptg000084l
+         Model: protein2genome:local
+     Raw score: 242
+   Query range: 0 -> 83
+  Target range: 11794916 -> 11795345
+
+        1 : MetLysSerValIleLeuThrGlyLeuLeuPheValLeuLeuCysValAspHis :       18
+            ||||||||||||:!!|||||||||||||||||||||||||||||||||||||||
+            MetLysSerValValLeuThrGlyLeuLeuPheValLeuLeuCysValAspHis
+ 11794917 : ATGAAGTCAGTTGTTTTAACTGGTTTGCTGTTCGTCCTCCTTTGTGTCGACCAC : 11794968
+
+       19 : MetThrAlaSerGlnSer  >>>> Target Intron 1 >>>>  ValValA :       27
+            |||!:!:!!:!!.!.!.!            180 bp           |||||||
+            MetSerSerAlaAsnLys++                         --ValValA
+ 11794969 : ATGAGTTCAGCCAACAAGgt.........................ccGTGGTGG : 11795175
+
+       28 : laThrGlnLeuIleProIleAsnThrAlaLeuThrProValMetMetGluGlyL :       45
+            ||!.!||||||||||||||||||||||||||||||! !:!!||||||:!!!.!:
+            laAsnGlnLeuIleProIleAsnThrAlaLeuThrLeuIleMetMetLysAlaG
+ 11795176 : CCAACCAGCTGATCCCCATAAATACTGCCCTGACTCTGATAATGATGAAGGCGG : 11795229
+
+       46 : ysValThrAsnProIleGlyIleProPheAlaGluMetSerGlnIleValGlyL :       63
+            !!|||..!!.!|||!!:|||||||||  !! !!!:!!: !!!:!|||:!!|||!
+            luValValThrProMetGlyIleProAlaGluAspIleProArgIleIleGlyM
+ 11795230 : AGGTGGTCACCCCAATGGGCATCCCCGCCGAGGACATTCCCCGAATAATCGGAA : 11795283
+
+       64 : ysGlnValAsnThrProValAlaLysGlyGlnThrLeuMetProAsnMetValL :       81
+             !|||||||||! ! !!||| !!  !|||  !||||||||||||:!!|||||||
+            etGlnValAsnArgAlaValProLeuGlyThrThrLeuMetProAspMetValL
+ 11795284 : TGCAAGTGAACAGGGCAGTGCCGTTGGGCACAACCCTCATGCCAGACATGGTGA : 11795337
+
+       82 : ysThrTyr :       83
+            ||!.!|||
+            ysAsnTyr
+ 11795338 : AAAACTAT : 11795345
+
+vulgar: Mamericanus_AFP_protein 0 83 . ptg000084l 11794916 11795345 + 242 M 24 72 5 0 2 I 0 176 3 0 2 M 59 177
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:protein2genome:local 2.4.0
+##date 2024-11-18
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+ptg000084l	exonerate:protein2genome:local	gene	11794917	11795345	242	+	.	gene_id 30 ; sequence Mamericanus_AFP_protein ; gene_orientation + ; identity 63.86 ; similarity 79.52
+ptg000084l	exonerate:protein2genome:local	cds	11794917	11794988	.	+	.	
+ptg000084l	exonerate:protein2genome:local	exon	11794917	11794988	.	+	.	insertions 0 ; deletions 0 ; identity 76.00 ; similarity 92.00
+ptg000084l	exonerate:protein2genome:local	splice5	11794989	11794990	.	+	.	intron_id 1 ; splice_site "GT"
+ptg000084l	exonerate:protein2genome:local	intron	11794989	11795168	.	+	.	intron_id 1
+ptg000084l	exonerate:protein2genome:local	splice3	11795167	11795168	.	+	.	intron_id 0 ; splice_site "CC"
+ptg000084l	exonerate:protein2genome:local	cds	11795169	11795345	.	+	.	
+ptg000084l	exonerate:protein2genome:local	exon	11795169	11795345	.	+	.	insertions 0 ; deletions 0 ; identity 59.32 ; similarity 74.58
+ptg000084l	exonerate:protein2genome:local	similarity	11794917	11795345	242	+	.	alignment_id 30 ; Query Mamericanus_AFP_protein ; Align 11794917 1 72 ; Align 11795169 25 177
+# --- END OF GFF DUMP ---
+#
+
+C4 Alignment:
+------------
+         Query: Mamericanus_AFP_protein J03924.1
+        Target: ptg000084l
+         Model: protein2genome:local
+     Raw score: 242
+   Query range: 0 -> 83
+  Target range: 11394797 -> 11395226
+
+        1 : MetLysSerValIleLeuThrGlyLeuLeuPheValLeuLeuCysValAspHis :       18
+            ||||||||||||:!!|||||||||||||||||||||||||||||||||||||||
+            MetLysSerValValLeuThrGlyLeuLeuPheValLeuLeuCysValAspHis
+ 11394798 : ATGAAGTCAGTTGTTTTAACTGGTTTGCTGTTCGTCCTCCTTTGTGTCGACCAC : 11394849
+
+       19 : MetThrAlaSerGlnSer  >>>> Target Intron 1 >>>>  ValValA :       27
+            |||!:!:!!:!!.!.!.!            180 bp           |||||||
+            MetSerSerAlaAsnLys++                         --ValValA
+ 11394850 : ATGAGTTCAGCCAACAAGgt.........................ccGTGGTGG : 11395056
+
+       28 : laThrGlnLeuIleProIleAsnThrAlaLeuThrProValMetMetGluGlyL :       45
+            ||!.!||||||||||||||||||||||||||||||! !:!!||||||:!!!.!:
+            laAsnGlnLeuIleProIleAsnThrAlaLeuThrLeuIleMetMetLysAlaG
+ 11395057 : CCAACCAGCTGATCCCCATAAATACTGCCCTGACTCTGATAATGATGAAGGCGG : 11395110
+
+       46 : ysValThrAsnProIleGlyIleProPheAlaGluMetSerGlnIleValGlyL :       63
+            !!|||..!!.!|||!!:|||||||||  !! !!!:!!: !!!:!|||:!!|||!
+            luValValThrProMetGlyIleProAlaGluAspIleProArgIleIleGlyM
+ 11395111 : AGGTGGTCACCCCAATGGGCATCCCCGCCGAGGACATTCCCCGAATAATCGGAA : 11395164
+
+       64 : ysGlnValAsnThrProValAlaLysGlyGlnThrLeuMetProAsnMetValL :       81
+             !|||||||||! ! !!||| !!  !|||  !||||||||||||:!!|||||||
+            etGlnValAsnArgAlaValProLeuGlyThrThrLeuMetProAspMetValL
+ 11395165 : TGCAAGTGAACAGGGCAGTGCCGTTGGGCACAACCCTCATGCCAGACATGGTGA : 11395218
+
+       82 : ysThrTyr :       83
+            ||!.!|||
+            ysAsnTyr
+ 11395219 : AAAACTAT : 11395226
+
+vulgar: Mamericanus_AFP_protein 0 83 . ptg000084l 11394797 11395226 + 242 M 24 72 5 0 2 I 0 176 3 0 2 M 59 177
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:protein2genome:local 2.4.0
+##date 2024-11-18
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+ptg000084l	exonerate:protein2genome:local	gene	11394798	11395226	242	+	.	gene_id 31 ; sequence Mamericanus_AFP_protein ; gene_orientation + ; identity 63.86 ; similarity 79.52
+ptg000084l	exonerate:protein2genome:local	cds	11394798	11394869	.	+	.	
+ptg000084l	exonerate:protein2genome:local	exon	11394798	11394869	.	+	.	insertions 0 ; deletions 0 ; identity 76.00 ; similarity 92.00
+ptg000084l	exonerate:protein2genome:local	splice5	11394870	11394871	.	+	.	intron_id 1 ; splice_site "GT"
+ptg000084l	exonerate:protein2genome:local	intron	11394870	11395049	.	+	.	intron_id 1
+ptg000084l	exonerate:protein2genome:local	splice3	11395048	11395049	.	+	.	intron_id 0 ; splice_site "CC"
+ptg000084l	exonerate:protein2genome:local	cds	11395050	11395226	.	+	.	
+ptg000084l	exonerate:protein2genome:local	exon	11395050	11395226	.	+	.	insertions 0 ; deletions 0 ; identity 59.32 ; similarity 74.58
+ptg000084l	exonerate:protein2genome:local	similarity	11394798	11395226	242	+	.	alignment_id 31 ; Query Mamericanus_AFP_protein ; Align 11394798 1 72 ; Align 11395050 25 177
+# --- END OF GFF DUMP ---
+#
+
+C4 Alignment:
+------------
+         Query: Mamericanus_AFP_protein J03924.1
+        Target: ptg000084l
+         Model: protein2genome:local
+     Raw score: 242
+   Query range: 0 -> 83
+  Target range: 11775856 -> 11776285
+
+        1 : MetLysSerValIleLeuThrGlyLeuLeuPheValLeuLeuCysValAspHis :       18
+            ||||||||||||:!!|||||||||||||||||||||||||||||||||||||||
+            MetLysSerValValLeuThrGlyLeuLeuPheValLeuLeuCysValAspHis
+ 11775857 : ATGAAGTCAGTTGTTTTAACTGGTTTGCTGTTCGTCCTCCTTTGTGTCGACCAC : 11775908
+
+       19 : MetThrAlaSerGlnSer  >>>> Target Intron 1 >>>>  ValValA :       27
+            |||!:!:!!:!!.!.!.!            180 bp           |||||||
+            MetSerSerAlaAsnLys++                         --ValValA
+ 11775909 : ATGAGTTCAGCCAACAAGgt.........................ccGTGGTGG : 11776115
+
+       28 : laThrGlnLeuIleProIleAsnThrAlaLeuThrProValMetMetGluGlyL :       45
+            ||!.!||||||||||||||||||||||||||||||! !:!!||||||:!!!.!:
+            laAsnGlnLeuIleProIleAsnThrAlaLeuThrLeuIleMetMetLysAlaG
+ 11776116 : CCAACCAGCTGATCCCCATAAATACTGCCCTGACTCTGATAATGATGAAGGCGG : 11776169
+
+       46 : ysValThrAsnProIleGlyIleProPheAlaGluMetSerGlnIleValGlyL :       63
+            !!|||..!!.!|||!!:|||||||||  !! !!!:!!: !!!:!|||:!!|||!
+            luValValThrProMetGlyIleProAlaGluAspIleProArgIleIleGlyM
+ 11776170 : AGGTGGTCACCCCAATGGGCATCCCCGCCGAGGACATTCCCCGAATAATCGGAA : 11776223
+
+       64 : ysGlnValAsnThrProValAlaLysGlyGlnThrLeuMetProAsnMetValL :       81
+             !|||||||||! ! !!||| !!  !|||  !||||||||||||:!!|||||||
+            etGlnValAsnArgAlaValProLeuGlyThrThrLeuMetProAspMetValL
+ 11776224 : TGCAAGTGAACAGGGCAGTGCCGTTGGGCACAACCCTCATGCCAGACATGGTGA : 11776277
+
+       82 : ysThrTyr :       83
+            ||!.!|||
+            ysAsnTyr
+ 11776278 : AAAACTAT : 11776285
+
+vulgar: Mamericanus_AFP_protein 0 83 . ptg000084l 11775856 11776285 + 242 M 24 72 5 0 2 I 0 176 3 0 2 M 59 177
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:protein2genome:local 2.4.0
+##date 2024-11-18
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+ptg000084l	exonerate:protein2genome:local	gene	11775857	11776285	242	+	.	gene_id 32 ; sequence Mamericanus_AFP_protein ; gene_orientation + ; identity 63.86 ; similarity 79.52
+ptg000084l	exonerate:protein2genome:local	cds	11775857	11775928	.	+	.	
+ptg000084l	exonerate:protein2genome:local	exon	11775857	11775928	.	+	.	insertions 0 ; deletions 0 ; identity 76.00 ; similarity 92.00
+ptg000084l	exonerate:protein2genome:local	splice5	11775929	11775930	.	+	.	intron_id 1 ; splice_site "GT"
+ptg000084l	exonerate:protein2genome:local	intron	11775929	11776108	.	+	.	intron_id 1
+ptg000084l	exonerate:protein2genome:local	splice3	11776107	11776108	.	+	.	intron_id 0 ; splice_site "CC"
+ptg000084l	exonerate:protein2genome:local	cds	11776109	11776285	.	+	.	
+ptg000084l	exonerate:protein2genome:local	exon	11776109	11776285	.	+	.	insertions 0 ; deletions 0 ; identity 59.32 ; similarity 74.58
+ptg000084l	exonerate:protein2genome:local	similarity	11775857	11776285	242	+	.	alignment_id 32 ; Query Mamericanus_AFP_protein ; Align 11775857 1 72 ; Align 11776109 25 177
+# --- END OF GFF DUMP ---
+#
+
+C4 Alignment:
+------------
+         Query: Mamericanus_AFP_protein J03924.1
+        Target: ptg000084l
+         Model: protein2genome:local
+     Raw score: 220
+   Query range: 0 -> 87
+  Target range: 11358503 -> 11359158
+
+        1 : MetLysSerValIleLeuThrGlyLeuLeuPheValLeuLeuCysValAspHis :       18
+            ||||||||||||:!!|||||||||||||||||||||||||||||||||||||||
+            MetLysSerValValLeuThrGlyLeuLeuPheValLeuLeuCysValAspHis
+ 11358504 : ATGAAGTCAGTTGTTTTAACTGGTTTGCTGTTCGTCCTCCTTTGTGTCGACCAC : 11358555
+
+       19 : MetThrAlaSerGlnSer  >>>> Target Intron 1 >>>>  ValValA :       27
+            |||!:!:!!:!!.!.!.!            394 bp             !  ! 
+            MetSerSerAlaAsnLys++                         +-AsnLys*
+ 11358556 : ATGAGTTCAGCCAACAAGgt.........................aaAATAAAT : 11358976
+
+       28 : laThrGlnLeuIleProIleAsnThrAlaLeuThrProValMetMetGluGlyL :       45
+             !! !:!!:!!!    !||||||||||||||||||! !:!!||||||:!!!.!|
+            **IleLysIleLys***IleAsnThrAlaLeuThrLeuIleMetMetLysAlaL
+ 11358977 : AAATAAAAATAAAGTAAATAAATACTGCCCTGACTCTGATAATGATGAAGGCGA : 11359030
+
+       46 : ysValThrAsnProIleGlyIleProPheAlaGluMetSerGlnIleValGlyL :       63
+            |||||..!!.!|||!!:|||||||||  !! !!!:!!: !!!:!|||:!!|||!
+            ysValValThrProMetGlyIleProAlaGluAspIleProArgIleIleGlyM
+ 11359031 : AAGTGGTCACCCCAATGGGCATCCCCGCCGAGGACATTCCCCGAATAATCGGAA : 11359084
+
+       64 : ysGlnValAsnThrProValAlaLysGlyGlnThrLeuMetProAsnMetValL :       81
+             !|||||||||! ! !!||| !!  !|||  !||||||||||||:!!|||||||
+            etGlnValAsnArgAlaValProLeuGlyThrThrLeuMetProAspMetValL
+ 11359085 : TGCAAGTGAACAGGGCAGTGCCGTTGGGCACAACCCTCATGCCAGACATGGTGA : 11359138
+
+       82 : ysThrTyrAlaAlaGlyLys :       87
+            ||||||||  !!.!!.!|||
+            ysThrTyrArgValAlaLys
+ 11359139 : AAACGTACCGCGTGGCGAAG : 11359158
+
+vulgar: Mamericanus_AFP_protein 0 87 . ptg000084l 11358503 11359158 + 220 M 24 72 5 0 2 I 0 390 3 0 2 M 63 189
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:protein2genome:local 2.4.0
+##date 2024-11-18
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+ptg000084l	exonerate:protein2genome:local	gene	11358504	11359158	220	+	.	gene_id 33 ; sequence Mamericanus_AFP_protein ; gene_orientation + ; identity 56.32 ; similarity 72.41
+ptg000084l	exonerate:protein2genome:local	cds	11358504	11358575	.	+	.	
+ptg000084l	exonerate:protein2genome:local	exon	11358504	11358575	.	+	.	insertions 0 ; deletions 0 ; identity 72.00 ; similarity 88.00
+ptg000084l	exonerate:protein2genome:local	splice5	11358576	11358577	.	+	.	intron_id 1 ; splice_site "GT"
+ptg000084l	exonerate:protein2genome:local	intron	11358576	11358969	.	+	.	intron_id 1
+ptg000084l	exonerate:protein2genome:local	splice3	11358968	11358969	.	+	.	intron_id 0 ; splice_site "AA"
+ptg000084l	exonerate:protein2genome:local	cds	11358970	11359158	.	+	.	
+ptg000084l	exonerate:protein2genome:local	exon	11358970	11359158	.	+	.	insertions 0 ; deletions 0 ; identity 49.21 ; similarity 65.08
+ptg000084l	exonerate:protein2genome:local	similarity	11358504	11359158	220	+	.	alignment_id 33 ; Query Mamericanus_AFP_protein ; Align 11358504 1 72 ; Align 11358970 25 189
+# --- END OF GFF DUMP ---
+#
+
+C4 Alignment:
+------------
+         Query: Mamericanus_AFP_protein J03924.1
+        Target: ptg000084l [revcomp]
+         Model: protein2genome:local
+     Raw score: 104
+   Query range: 0 -> 26
+  Target range: 11322553 -> 11322475
+
+        1 : MetLysSerValIleLeuThrGlyLeuLeuPheValLeuLeuCysValAspHis :       18
+            ||||||||||||:!!|||||||||||||||||||||||||||||||||||||||
+            MetLysSerValValLeuThrGlyLeuLeuPheValLeuLeuCysValAspHis
+ 11322553 : ATGAAGTCAGTTGTTTTAACTGGTTTGCTGTTCGTCCTCCTTTGTGTCGACCAC : 11322502
+
+       19 : MetThrAlaSerGlnSerValVal :       26
+            |||!:!:!!:!!.!.!.!|||:!!
+            MetSerSerAlaAsnLysValIle
+ 11322501 : ATGAGTTCAGCCAACAAGGTGATT : 11322476
+
+vulgar: Mamericanus_AFP_protein 0 26 . ptg000084l 11322553 11322475 - 104 M 26 78
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:protein2genome:local 2.4.0
+##date 2024-11-18
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+ptg000084l	exonerate:protein2genome:local	gene	11322476	11322553	104	-	.	gene_id 1 ; sequence Mamericanus_AFP_protein ; gene_orientation . ; identity 73.08 ; similarity 92.31
+ptg000084l	exonerate:protein2genome:local	cds	11322476	11322553	.	-	.	
+ptg000084l	exonerate:protein2genome:local	exon	11322476	11322553	.	-	.	insertions 0 ; deletions 0 ; identity 73.08 ; similarity 92.31
+ptg000084l	exonerate:protein2genome:local	similarity	11322476	11322553	104	-	.	alignment_id 1 ; Query Mamericanus_AFP_protein ; Align 11322554 1 78
+# --- END OF GFF DUMP ---
+#
+
+C4 Alignment:
+------------
+         Query: Mamericanus_AFP_protein J03924.1
+        Target: ptg000084l [revcomp]
+         Model: protein2genome:local
+     Raw score: 102
+   Query range: 0 -> 25
+  Target range: 11311665 -> 11311590
+
+        1 : MetLysSerValIleLeuThrGlyLeuLeuPheValLeuLeuCysValAspHis :       18
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||
+            MetLysSerValIleLeuThrGlyLeuLeuPheValLeuLeuCysValAspHis
+ 11311665 : ATGAAGTCAGTTATTTTAACTGGTTTGCTGTTCGTCCTCCTTTGTGTCGACCAC : 11311614
+
+       19 : MetThrAlaSerGlnSerVal :       25
+            |||!:!:!!:!!.!.!.!|||
+            MetSerSerAlaAsnLysVal
+ 11311613 : ATGAGTTCAGCCAACAAGGTG : 11311591
+
+vulgar: Mamericanus_AFP_protein 0 25 . ptg000084l 11311665 11311590 - 102 M 25 75
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:protein2genome:local 2.4.0
+##date 2024-11-18
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+ptg000084l	exonerate:protein2genome:local	gene	11311591	11311665	102	-	.	gene_id 2 ; sequence Mamericanus_AFP_protein ; gene_orientation . ; identity 80.00 ; similarity 92.00
+ptg000084l	exonerate:protein2genome:local	cds	11311591	11311665	.	-	.	
+ptg000084l	exonerate:protein2genome:local	exon	11311591	11311665	.	-	.	insertions 0 ; deletions 0 ; identity 80.00 ; similarity 92.00
+ptg000084l	exonerate:protein2genome:local	similarity	11311591	11311665	102	-	.	alignment_id 2 ; Query Mamericanus_AFP_protein ; Align 11311666 1 75
+# --- END OF GFF DUMP ---
+#
+
+C4 Alignment:
+------------
+         Query: Mamericanus_AFP_protein J03924.1
+        Target: ptg000084l [revcomp]
+         Model: protein2genome:local
+     Raw score: 102
+   Query range: 0 -> 25
+  Target range: 11329023 -> 11328948
+
+        1 : MetLysSerValIleLeuThrGlyLeuLeuPheValLeuLeuCysValAspHis :       18
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||
+            MetLysSerValIleLeuThrGlyLeuLeuPheValLeuLeuCysValAspHis
+ 11329023 : ATGAAGTCAGTTATTTTAACTGGTTTGCTGTTCGTCCTCCTTTGTGTCGACCAC : 11328972
+
+       19 : MetThrAlaSerGlnSerVal :       25
+            |||!:!:!!:!!.!.!.!|||
+            MetSerSerAlaAsnLysVal
+ 11328971 : ATGAGTTCAGCCAACAAGGTG : 11328949
+
+vulgar: Mamericanus_AFP_protein 0 25 . ptg000084l 11329023 11328948 - 102 M 25 75
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:protein2genome:local 2.4.0
+##date 2024-11-18
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+ptg000084l	exonerate:protein2genome:local	gene	11328949	11329023	102	-	.	gene_id 3 ; sequence Mamericanus_AFP_protein ; gene_orientation . ; identity 80.00 ; similarity 92.00
+ptg000084l	exonerate:protein2genome:local	cds	11328949	11329023	.	-	.	
+ptg000084l	exonerate:protein2genome:local	exon	11328949	11329023	.	-	.	insertions 0 ; deletions 0 ; identity 80.00 ; similarity 92.00
+ptg000084l	exonerate:protein2genome:local	similarity	11328949	11329023	102	-	.	alignment_id 3 ; Query Mamericanus_AFP_protein ; Align 11329024 1 75
+# --- END OF GFF DUMP ---
+#
+
+C4 Alignment:
+------------
+         Query: Mamericanus_AFP_protein J03924.1
+        Target: ptg000084l [revcomp]
+         Model: protein2genome:local
+     Raw score: 102
+   Query range: 0 -> 25
+  Target range: 11343986 -> 11343911
+
+        1 : MetLysSerValIleLeuThrGlyLeuLeuPheValLeuLeuCysValAspHis :       18
+            ||||||||||||||||||||||||||||||||||||||||||||||||||||||
+            MetLysSerValIleLeuThrGlyLeuLeuPheValLeuLeuCysValAspHis
+ 11343986 : ATGAAGTCAGTTATTTTAACTGGTTTGCTGTTCGTCCTCCTTTGTGTCGACCAC : 11343935
+
+       19 : MetThrAlaSerGlnSerVal :       25
+            |||!:!:!!:!!.!.!.!|||
+            MetSerSerAlaAsnLysVal
+ 11343934 : ATGAGTTCAGCCAACAAGGTG : 11343912
+
+vulgar: Mamericanus_AFP_protein 0 25 . ptg000084l 11343986 11343911 - 102 M 25 75
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:protein2genome:local 2.4.0
+##date 2024-11-18
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+ptg000084l	exonerate:protein2genome:local	gene	11343912	11343986	102	-	.	gene_id 4 ; sequence Mamericanus_AFP_protein ; gene_orientation . ; identity 80.00 ; similarity 92.00
+ptg000084l	exonerate:protein2genome:local	cds	11343912	11343986	.	-	.	
+ptg000084l	exonerate:protein2genome:local	exon	11343912	11343986	.	-	.	insertions 0 ; deletions 0 ; identity 80.00 ; similarity 92.00
+ptg000084l	exonerate:protein2genome:local	similarity	11343912	11343986	102	-	.	alignment_id 4 ; Query Mamericanus_AFP_protein ; Align 11343987 1 75
+# --- END OF GFF DUMP ---
+#
+
+C4 Alignment:
+------------
+         Query: Mamericanus_AFP_protein J03924.1
+        Target: ptg000084l [revcomp]
+         Model: protein2genome:local
+     Raw score: 101
+   Query range: 0 -> 25
+  Target range: 11292486 -> 11292411
+
+        1 : MetLysSerValIleLeuThrGlyLeuLeuPheValLeuLeuCysValAspHis :       18
+            ||||||||||||:!!|||||||||||||||||||||||||||||||||||||||
+            MetLysSerValValLeuThrGlyLeuLeuPheValLeuLeuCysValAspHis
+ 11292486 : ATGAAGTCAGTTGTTTTAACTGGTTTGCTGTTCGTCCTCCTTTGTGTCGACCAC : 11292435
+
+       19 : MetThrAlaSerGlnSerVal :       25
+            |||!:!:!!:!!.!.!.!|||
+            MetSerSerAlaAsnLysVal
+ 11292434 : ATGAGTTCAGCCAACAAGGTG : 11292412
+
+vulgar: Mamericanus_AFP_protein 0 25 . ptg000084l 11292486 11292411 - 101 M 25 75
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:protein2genome:local 2.4.0
+##date 2024-11-18
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+ptg000084l	exonerate:protein2genome:local	gene	11292412	11292486	101	-	.	gene_id 5 ; sequence Mamericanus_AFP_protein ; gene_orientation . ; identity 76.00 ; similarity 92.00
+ptg000084l	exonerate:protein2genome:local	cds	11292412	11292486	.	-	.	
+ptg000084l	exonerate:protein2genome:local	exon	11292412	11292486	.	-	.	insertions 0 ; deletions 0 ; identity 76.00 ; similarity 92.00
+ptg000084l	exonerate:protein2genome:local	similarity	11292412	11292486	101	-	.	alignment_id 5 ; Query Mamericanus_AFP_protein ; Align 11292487 1 75
+# --- END OF GFF DUMP ---
+#
+-- completed exonerate analysis
