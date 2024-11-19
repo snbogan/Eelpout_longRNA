@@ -1,0 +1,15 @@
+Status	/hb/home/snbogan/PolarFish/RNAseq/Ldear_run1/alignments/Ld_R1_liver_pass_cutadapt_minimap2_cDNA.sorted.bam
+Assigned	2174248
+Unassigned_Unmapped	193515
+Unassigned_Read_Type	0
+Unassigned_Singleton	0
+Unassigned_MappingQuality	0
+Unassigned_Chimera	0
+Unassigned_FragmentLength	0
+Unassigned_Duplicate	0
+Unassigned_MultiMapping	0
+Unassigned_Secondary	0
+Unassigned_NonSplit	0
+Unassigned_NoFeatures	6401589
+Unassigned_Overlapping_Length	0
+Unassigned_Ambiguity	149671
